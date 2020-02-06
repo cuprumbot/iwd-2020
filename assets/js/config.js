@@ -1,4 +1,4 @@
 config = {
-    'time': 'night',
-    'day': '31'
+    'time': 'day',
+    'day': '13'
 };

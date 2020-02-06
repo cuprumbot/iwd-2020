@@ -59,7 +59,8 @@
                     <!-- <a id="projects-access" class="btn-menu red disabled">Codelabs</a> -->
                     <a id="agenda-access" class="btn-menu red">Agenda</a>
                     <a id="place-access" class="btn-menu yellow">Ubicación</a>
-                    <a id="register-access" class="btn-menu green solid">Registrate</a>
+                    <!-- <a id="register-access" class="btn-menu green solid">Registrate</a> -->
+                    <a id="placeholder-id" class="btn-menu green solid">Registrate</a>
                 </span>
             </span>
         </span>
@@ -112,17 +113,23 @@
             html += 'Información';
             html += '</span>';
             html += '<p>';
-            html += 'El evento más grande de tecnologías de Google en Guatemala.  Se contará con 11 conferencistas internacionales para dos días llenos de conferencias técnicas de machine learning, cloud, mobile, web, y product strategy. Se tendrán dos jornadas, por la mañana, enfocado en estudiantes y charlas nivel principiante-intermedio y por la noche, para profesionales con contenido intermedio-avanzado. El evento no tiene ningún costo y las dos jornadas de ambos días están abiertas a todo público.';
+            html += 'Women Techmakers Guatemala es una comunidad en la cual las mujeres en tecnología pueden inspirarse e incentivarse unas a otras para lograr sus sueños.<br><br>';
+            html += 'El Día Internacional de la Mujer (IWD, siglas en inglés) se conmemora el 8 de marzo alrededor del mundo,en cada región se realizan distintas actividades. En varios casos, se realiza con un enfoque específico en política, economía o tecnología. El objetivo de los eventos a llevarse a cabo en Guatemala es empoderar a mujeres que trabajan o tienen interés en tecnología a través de visibilizar esfuerzos, aumentar vínculos de comunidad y brindar los recursos necesarios para el crecimiento profesional.<br><br>';
+            html += 'Se tendrá una serie de conferencias de mujeres líderes en diversas áreas de la tecnología, comunicación, diseño gráfico y periodismo entre otras, además, se busca crear un espacio de networking.<br><br>';
+            html += 'El evento es completamente gratuito, solo requiere inscripción.';
             html += '</p>';
             html += '<span class="subtitle">';
             html += 'Lugar y Fecha';
             html += '</span>';
             html += '<p>';
-            html += 'Se llevará a cabo en Universidad Galileo (Sede Central).<br>';
+            html += '<h3>Viernes 13 - Sede Universidad Galileo</h3><br>';
             html += '7a. Avenida, Calle Dr. Eduardo Suger Cofiño, zona 10.<br>';
-            html += 'Los días 30 y 31 de mayo.<br><br>';
-            html += '09:00 - 13:00 (estudiantes)<br>';
-            html += '18:00 - 21:00 (profesionales)';
+            html += '16:00 a 20:00<br>';
+            html += 'Charlas, talleres y panel de cierre.<br><br>';
+            html += '<h3>Sábado 14 - Sede Campus Tec</h3><br>';
+            html += 'Vía 4 1-00, Zona 4.<br>';
+            html += '8:00 a 13:00<br>';
+            html += 'Charlas y keynote de cierre.'
             html += '</p>';
         
         element.find('.section-body').html(html);
@@ -141,16 +148,16 @@
         var html = "";
             html += '<span class="agenda-container">';
             html += '<span class="subtitle">';
-            html += 'Horario de 09:00 a 13:00';
+            html += 'Viernes 13 - Universidad Galileo';
             html += '</span>';
             html += '<p>';
-            html += 'Jornada matutina enfocada en estudiantes, con conferencias de nivel principiante e intermedio.';
+            html += '16:00 a 20:00. Charlas, talleres y panel de cierre.';
             html += '</p>';
             html += '<span class="subtitle">';
-            html += 'Horario de 18:00 a 21:00';
+            html += 'Sábado 14 - Campus Tec';
             html += '</span>';
             html += '<p>';
-            html += 'Jornada vespertina enfocada en profesionales, con conferencias de nivel intermedio y avanzado.';
+            html += '8:00 a 13:00. Charlas y keynote de cierre.';
             html += '</p>';
 
             html += '<span class="events-container">';
@@ -161,10 +168,10 @@
         
         html += '<span class="day-selection">';
         html += '<span n="1" class="day-selector selected">';
-        html += 'Jueves 30'
+        html += 'Viernes 13'
         html += '</span>';
         html += '<span n="2" class="day-selector">';
-        html += 'Viernes 31'
+        html += 'Sábado 14'
         html += '</span>';
         html += '</span>';
 
@@ -182,7 +189,7 @@
                 var hour = parseInt(event.time.substring(0, 2));
                 if(hour >= 12){
                     ap = 'PM';
-                    if(hour >= 18){
+                    if(hour >= 14){
                         night = true;
                     }else{
                         night = false;
@@ -211,8 +218,8 @@
                     separationCount++;
                     html += (separationCount == 1)? `<span n="${separationCount}" class="day-card shown">` : `<span n="${separationCount}" class="day-card">`;
                     html += '<span class="event-date">';
-                    if(event.day == 30) html += 'Jueves, 30 de mayo';
-                    else if(event.day == 31) html += 'Viernes, 31 de mayo';
+                    if(event.day == 13) html += 'Viernes, 13 de marzo';
+                    else if(event.day == 14) html += 'Sábado, 14 de marzo';
                     html += '</span>';
                     oldDay = event.day;
                 }
@@ -338,7 +345,7 @@
             }
         });
 
-        if(config.day == '31') $('.day-selector').each((index, selector)=>{
+        if(config.day == '14') $('.day-selector').each((index, selector)=>{
             if(selector.getAttribute('n') == 2) selector.click();
         });
 
@@ -456,8 +463,8 @@
 
                 if(oldDay != event.day){
                     html += '<span class="event-date">';
-                    if(event.day == 30) html += 'Jueves, 30 de mayo';
-                    else if(event.day == 31) html += 'Viernes, 31 de mayo';
+                    if(event.day == 13) html += 'Viernes, 13 de marzo';
+                    else if(event.day == 14) html += 'Sábado, 14 de marzo';
                     html += '</span>';
                     oldDay = event.day;
                 }

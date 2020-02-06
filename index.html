@@ -38,7 +38,7 @@
     
 
 
-    <title>Google I/O Extended</title>
+    <title>IWD 2020</title>
 </head>
 <body font-family="Product">
     <span id="background" class="background">
@@ -60,7 +60,7 @@
                     <a id="agenda-access" class="btn-menu red">Agenda</a>
                     <a id="place-access" class="btn-menu yellow">Ubicación</a>
                     <!-- <a id="register-access" class="btn-menu green solid">Registrate</a> -->
-                    <a id="placeholder-id" class="btn-menu green solid">Registrate</a>
+                    <!-- <a id="placeholder-id" class="btn-menu green solid">Registrate</a> -->
                 </span>
             </span>
         </span>
@@ -102,7 +102,9 @@
     var inExpanded = false;
     var orderStaff = new Array();
 
-    var logos = ['assets/img/gdg.png', 'assets/img/maya.png', 'assets/img/logo2stroke.PNG', 'assets/img/galileo-logostroke.PNG', 'assets/img/wtm.png'];
+    //var logos = ['assets/img/gdg.png', 'assets/img/maya.png', 'assets/img/logo2stroke.PNG', 'assets/img/galileo-logostroke.PNG', 'assets/img/wtm.png'];
+
+    var logos = ['assets/img/gdg.png', 'assets/img/galileo-logostroke.PNG', 'assets/img/logo-innovation.PNG', 'logo-tec.png', 'logo-wie.jpg'];
 
 
     function generateHome(){
@@ -640,13 +642,16 @@
                     $('.background').css('opacity', '1');
                     $('.background').css('transform', 'scale(1)');
                 }
-                $('.background').find('img').attr('src','assets/img/image93.gif');
+                //$('.background').find('img').attr('src','assets/img/fondo.png');
                 var html = '';
                 html += '<img src="" img-path="assets/img/gdg.png" alt="GDG">';
-                html += '<img src="" img-path="assets/img/maya.png" alt="GDG Guatemala">';
-                html += '<img src="" img-path="assets/img/logo2stroke.PNG" alt="Google Cloud Next">';
+                //html += '<img src="" img-path="assets/img/maya.png" alt="GDG Guatemala">';
+                //html += '<img src="" img-path="assets/img/logo2stroke.PNG" alt="Google Cloud Next">';
                 html += '<img src="" img-path="assets/img/galileo-logostroke.PNG" alt="Universidad Galileo">';
-                html += '<img src="assets/img/wtm.png" alt="Women Tech Maker">';
+                //html += '<img src="assets/img/wtm.png" alt="Women Tech Maker">';
+                html += '<img src="" img-path="assets/img/logo-innovation.PNG" alt="Innovation Lab">';
+                html += '<img src="" img-path="assets/img/logo-tec.png" alt="Campus Tec">';
+                html += '<img src="" img-path="assets/img/logo-wie.jpg" alt="IEEE Women In Engineering">';
                 $("#galileo-logo").html(html);
 
                 $("#galileo-logo").find('img').each((index, element)=>{
@@ -790,13 +795,16 @@
                 if(inIndex) $('.background').css('opacity', '1');
                 $('.background').css('transform', 'scale(1)');
             }
-            $('.background').find('img').attr('src','assets/img/image93.gif');
+            //$('.background').find('img').attr('src','assets/img/fondo.png');
             var html = '';
             html += '<img src="" img-path="assets/img/gdg.png" alt="GDG">';
-            html += '<img src="" img-path="assets/img/maya.png" alt="GDG Guatemala">';
-            html += '<img src="" img-path="assets/img/logo2stroke.PNG" alt="Google Cloud Next">';
+            //html += '<img src="" img-path="assets/img/maya.png" alt="GDG Guatemala">';
+            //html += '<img src="" img-path="assets/img/logo2stroke.PNG" alt="Google Cloud Next">';
             html += '<img src="" img-path="assets/img/galileo-logostroke.PNG" alt="Universidad Galileo">';
-            html += '<img src="assets/img/wtm.png" alt="Women Tech Maker">';
+            //html += '<img src="assets/img/wtm.png" alt="Women Tech Maker">';
+            html += '<img src="" img-path="assets/img/logo-innovation.PNG" alt="Innovation Lab">';
+            html += '<img src="" img-path="assets/img/logo-tec.png" alt="Campus Tec">';
+            html += '<img src="" img-path="assets/img/logo-wie.jpg" alt="IEEE Women In Engineering">';
             $("#galileo-logo").html(html);
 
             $("#galileo-logo").find('img').each((index, element)=>{

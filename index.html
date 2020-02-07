@@ -50,15 +50,18 @@
                     <img id="innovation-logo" class="innovation-logo" src="" alt="">
                     <!-- Google I/O Extended -->
                 </span>
+                <h2>
+                    ¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a>
+                </h2>
                 <!-- <span class="date">
                     <b>30</b> y <b>31</b> de mayo
                 </span> -->
                 <span class="title-menu">
-                    <a id="home-access" class="btn-menu gray">Principal</a>
-                    <a id="staff-access" class="btn-menu blue">Conferencistas</a>
+                    <a id="home-access" class="btn-menu c1">Principal</a>
+                    <a id="staff-access" class="btn-menu c2">Conferencistas</a>
                     <!-- <a id="projects-access" class="btn-menu red disabled">Codelabs</a> -->
-                    <a id="agenda-access" class="btn-menu red">Agenda</a>
-                    <a id="place-access" class="btn-menu yellow">Ubicación</a>
+                    <a id="agenda-access" class="btn-menu c3">Agenda</a>
+                    <a id="place-access" class="btn-menu c4">Ubicación</a>
                     <!-- <a id="register-access" class="btn-menu green solid">Registrate</a> -->
                     <!-- <a id="placeholder-id" class="btn-menu green solid">Registrate</a> -->
                 </span>
@@ -133,6 +136,9 @@
             html += '8:00 a 13:00<br>';
             html += 'Charlas y keynote de cierre.'
             html += '</p>';
+
+            html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a></h2></center>'
+
         
         element.find('.section-body').html(html);
         
@@ -296,6 +302,9 @@
         html += '</span>';
 
         html += '</span>';
+
+                    html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a></h2></center>'
+
 
         element.find('.section-body').html(html);
         element.css('opacity', '1');
@@ -538,6 +547,8 @@
         var element = $('#dynamic-information');
         //element.find('.section-title').html('STAFF');
         var html = '';
+
+
         html += '<span class="staff-container">';
         html += '<p class="helper">Para ver más información sobre el conferencista presiona sobre su imagen.</p>'
         orderStaff.forEach(element => {
@@ -567,6 +578,10 @@
             html += '</span>';
         });
         html += '</span>';
+
+        html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a></h2></center>'
+
+
         element.find('.section-body').html(html);
 
         element.find('.section-body').find('.staff-container').find('.staff-card').each((index, element) => {
@@ -690,10 +705,11 @@
         //html += '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.8173365635653!2d-90.50785318464814!3d14.60947918077454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3b512ee9afb%3A0xc8255d5feb146d4a!2sUniversidad+Galileo!5e0!3m2!1sen!2sgt!4v1557936136742!5m2!1sen!2sgt" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>';
         //html += '</span>';
         
+        html += '<center><h3>Viernes 13 - Universidad Galileo</h3></center>'
         html += '<span class="map-container">';
         html += '<iframe width="500" height="500" frameborder="0" src="https://maps.google.com/maps?q=universidad%20galileo&t=&z=17&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>';
         html += '</span>';
-
+        html += '<center><h3>Sábado 14 - Campus Tec</h3></center>'
         html += '<span class="map-container">';
         html += '<iframe width="500" height="500" frameborder="0" src="https://maps.google.com/maps?q=campus%20tec&t=&z=17&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>';
         html += '</span>';

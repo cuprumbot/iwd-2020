@@ -1589,7 +1589,7 @@ body {
         font-weight: bold; }
         .title-container .inner-container .title-container .title .innovation-logo {
           width: 700px;
-          height: auto;
+          height: 600px;
           opacity: 1;
           transition: 0.5s ease; }
           @media only screen and (max-width: 750px) {
@@ -1702,3 +1702,32 @@ body {
               border-color: #b4b4b4 !important;
               color: #b4b4b4 !important;
               background: white !important; }
+
+
+.title-container .inner-container .title-container .title-menu .btn-menu.c1 {
+  border-color: #4285F4 !important;
+  color: #4285F4 !important; }
+.title-container .inner-container .title-container .title-menu .btn-menu.c1:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
+  background: #4285F4 !important;
+  color: white !important; }
+
+.title-container .inner-container .title-container .title-menu .btn-menu.c2 {
+  border-color: #4FC3F7 !important;
+  color: #4FC3F7 !important; }
+.title-container .inner-container .title-container .title-menu .btn-menu.c2:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
+  background: #4FC3F7 !important;
+  color: white !important; }
+
+.title-container .inner-container .title-container .title-menu .btn-menu.c3 {
+  border-color: #1CE9B6 !important;
+  color: #1CE9B6 !important; }
+.title-container .inner-container .title-container .title-menu .btn-menu.c3:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
+  background: #1CE9B6 !important;
+  color: white !important; }
+
+.title-container .inner-container .title-container .title-menu .btn-menu.c4 {
+  border-color: #00BFA5 !important;
+  color: #00BFA5 !important; }
+.title-container .inner-container .title-container .title-menu .btn-menu.c4:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
+  background: #00BFA5 !important;
+  color: white !important; }

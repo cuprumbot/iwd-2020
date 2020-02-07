@@ -1371,16 +1371,16 @@ body {
 .galileo-logo {
   position: fixed;
   bottom: 0;
-  padding: 20px 0;
+  padding: 1px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background: transparent;
   width: 100%;
   z-index: 1;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
   transition: 0.4s ease; }
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 880px) {
     .galileo-logo {
       margin-bottom: 0;
       z-index: -1; }
@@ -1572,9 +1572,9 @@ body {
       opacity: 0;
       transition: 0.5s ease;
       height: auto;
-      padding: 50px 50px;
+      padding: 1px 50px;
       justify-content: center;
-      margin-top: -50px; }
+      margin-top: -100px; }
       .title-container .inner-container .title-container:hover .title-menu, .title-container .inner-container .title-container:active .title-menu, .title-container .inner-container .title-container:focus .title-menu {
         user-select: initial;
         -moz-user-select: none;
@@ -1586,15 +1586,35 @@ body {
         color: black;
         font-size: 65px;
         transition: 0.2s ease;
-        font-weight: bold; }
+        font-weight: bold;
+        height: auto; }
         .title-container .inner-container .title-container .title .innovation-logo {
           width: 700px;
-          height: 600px;
+          height: auto;
           opacity: 1;
           transition: 0.5s ease; }
-          @media only screen and (max-width: 750px) {
+          /*
+          @media only screen and (max-width: 4000px) and (max-height: 900px) {
+            .title-container .inner-container .title-container .title .innovation-logo {
+              width: 500px; } }
+          @media only screen and (max-width: 4000px) and (max-height: 710px) {
             .title-container .inner-container .title-container .title .innovation-logo {
               width: 450px; } }
+          */
+          @media only screen and (max-width: 4000px) and (max-height: 710px) {
+            .title-container .inner-container .title-container .title .innovation-logo {
+              width: 400px; } }
+
+          @media only screen and (max-width: 880px) and (max-height: 900px) {
+            .title-container .inner-container .title-container .title .innovation-logo {
+              width: 400px; } }
+          @media only screen and (max-width: 880px) and (max-height: 710px) {
+            .title-container .inner-container .title-container .title .innovation-logo {
+              width: 300px; } }
+          @media only screen and (max-width: 880px) and (max-height: 540px) {
+            .title-container .inner-container .title-container .title .innovation-logo {
+              width: 200px; } }
+
           @media only screen and (max-width: 650px) {
             .title-container .inner-container .title-container .title .innovation-logo {
               width: 200px; } }
@@ -1637,6 +1657,7 @@ body {
         .title-container .inner-container .title-container .title-menu .btn-menu {
           padding: 6px 14px;
           font-size: 15px;
+          font-weight: bold;
           margin: 5px 0;
           background: white;
           color: #1a73e8;
@@ -1705,29 +1726,29 @@ body {
 
 
 .title-container .inner-container .title-container .title-menu .btn-menu.c1 {
-  border-color: #4285F4 !important;
-  color: #4285F4 !important; }
+  border-color: #4080F0 !important;
+  color: #4080F0 !important; }
 .title-container .inner-container .title-container .title-menu .btn-menu.c1:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
-  background: #4285F4 !important;
+  background: #4080F0 !important;
   color: white !important; }
 
 .title-container .inner-container .title-container .title-menu .btn-menu.c2 {
-  border-color: #4FC3F7 !important;
-  color: #4FC3F7 !important; }
+  border-color: #3090D0 !important;
+  color: #3090D0 !important; }
 .title-container .inner-container .title-container .title-menu .btn-menu.c2:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
-  background: #4FC3F7 !important;
+  background: #3090D0 !important;
   color: white !important; }
 
 .title-container .inner-container .title-container .title-menu .btn-menu.c3 {
-  border-color: #1CE9B6 !important;
-  color: #1CE9B6 !important; }
+  border-color: #10A0B0 !important;
+  color: #10A0B0 !important; }
 .title-container .inner-container .title-container .title-menu .btn-menu.c3:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
-  background: #1CE9B6 !important;
+  background: #10A0B0 !important;
   color: white !important; }
 
 .title-container .inner-container .title-container .title-menu .btn-menu.c4 {
-  border-color: #00BFA5 !important;
-  color: #00BFA5 !important; }
+  border-color: #00B090 !important;
+  color: #00B090 !important; }
 .title-container .inner-container .title-container .title-menu .btn-menu.c4:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
-  background: #00BFA5 !important;
+  background: #00B090 !important;
   color: white !important; }

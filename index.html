@@ -50,9 +50,11 @@
                     <img id="innovation-logo" class="innovation-logo" src="" alt="">
                     <!-- Google I/O Extended -->
                 </span>
-                <h2>
-                    ¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a>
-                </h2>
+                <span class="title-menu">
+                    <h2>
+                        ¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a>
+                    </h2>
+                </span>
                 <!-- <span class="date">
                     <b>30</b> y <b>31</b> de mayo
                 </span> -->
@@ -105,9 +107,7 @@
     var inExpanded = false;
     var orderStaff = new Array();
 
-    //var logos = ['assets/img/gdg.png', 'assets/img/maya.png', 'assets/img/logo2stroke.PNG', 'assets/img/galileo-logostroke.PNG', 'assets/img/wtm.png'];
-
-    var logos = ['assets/img/gdg.png', 'assets/img/galileo-logostroke.PNG', 'assets/img/logo-innovation.PNG', 'assets/img/logo-tec.png', 'assets/img/logo-wie.jpg'];
+    var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation.png', 'assets/img/logo-tec.png', 'assets/img/logo-wie.png'];
 
 
     function generateHome(){
@@ -572,7 +572,7 @@
             html += '</span>';
             html += '<span class="staff-information">';
             html += '<p>';
-            html += element.information;
+            html += element.short;
             html += '</p>';
             html += '</span>';
             html += '</span>';
@@ -650,34 +650,39 @@
 
     $(window).resize(()=>{
         if(inIndex){
-            if($(window).width() > 650){
-                $('#innovation-logo').attr('src','assets/img/logo1stroke.png');
+            if(($(window).width() > 880)){
+                $('#innovation-logo').attr('src','assets/img/logo-main-web.png');
+                //logo-main-web
                 $('.background').html('<img src="" alt="">');
                 $('.background').find('img')[0].onload = () => {
                     $('.background').css('opacity', '1');
                     $('.background').css('transform', 'scale(1)');
                 }
                 //$('.background').find('img').attr('src','assets/img/fondo.png');
-                var html = '';
-                html += '<img src="" img-path="assets/img/gdg.png" alt="GDG">';
-                //html += '<img src="" img-path="assets/img/maya.png" alt="GDG Guatemala">';
-                //html += '<img src="" img-path="assets/img/logo2stroke.PNG" alt="Google Cloud Next">';
-                html += '<img src="" img-path="assets/img/galileo-logostroke.PNG" alt="Universidad Galileo">';
-                //html += '<img src="assets/img/wtm.png" alt="Women Tech Maker">';
-                html += '<img src="" img-path="assets/img/logo-innovation.PNG" alt="Innovation Lab">';
-                html += '<img src="" img-path="assets/img/logo-tec.png" alt="Campus Tec">';
-                html += '<img src="" img-path="assets/img/logo-wie.jpg" alt="IEEE Women In Engineering">';
-                $("#galileo-logo").html(html);
+                
 
-                $("#galileo-logo").find('img').each((index, element)=>{
-                    element.onload = () => {
-                        $(element).css('opacity', '1');
-                    }
+                if (($(window).height() > 490) && ($(window).width() > 880)) {
+                    var html = '';
+                    html += '<img src="" img-path="assets/img/logo-gdg.png" alt="GDG">';
+                    html += '<img src="" img-path="assets/img/logo-galileo.png" alt="Universidad Galileo">';
+                    html += '<img src="" img-path="assets/img/logo-innovation.png" alt="Innovation Lab">';
+                    html += '<img src="" img-path="assets/img/logo-tec.png" alt="Campus Tec">';
+                    html += '<img src="" img-path="assets/img/logo-wie.png" alt="IEEE Women In Engineering">';
+                    $("#galileo-logo").html(html);
 
-                    $(element).attr('src', $(element).attr('img-path'));
-                });
+                    $("#galileo-logo").find('img').each((index, element)=>{
+                        element.onload = () => {
+                            $(element).css('opacity', '1');
+                        }
+
+                        $(element).attr('src', $(element).attr('img-path'));
+                    });
+                } else {
+                    $("#galileo-logo").html("");
+                }
             }else{
-                $('#innovation-logo').attr('src','assets/img/logo3.png');
+                $('#innovation-logo').attr('src','assets/img/logo-main.png');
+                //logo-main-phone
                 $('.background').html('');
                 var html = '';
                 html += '<span class="external-container">';
@@ -815,32 +820,33 @@
             if(inIndex) $('.title-container').css('opacity', '1');
         };
 
-        if($(window).width() > 650){
-            $('#innovation-logo').attr('src','assets/img/logo1stroke.png');
+        if(($(window).width() > 880)){
+            $('#innovation-logo').attr('src','assets/img/logo-main-web.png');
+            //logo-main-web
             $('.background').html('<img src="" alt="">');
             $('.background').find('img')[0].onload = () => {
                 if(inIndex) $('.background').css('opacity', '1');
                 $('.background').css('transform', 'scale(1)');
             }
-            //$('.background').find('img').attr('src','assets/img/fondo.png');
-            var html = '';
-            html += '<img src="" img-path="assets/img/gdg.png" alt="GDG">';
-            //html += '<img src="" img-path="assets/img/maya.png" alt="GDG Guatemala">';
-            //html += '<img src="" img-path="assets/img/logo2stroke.PNG" alt="Google Cloud Next">';
-            html += '<img src="" img-path="assets/img/galileo-logostroke.PNG" alt="Universidad Galileo">';
-            //html += '<img src="assets/img/wtm.png" alt="Women Tech Maker">';
-            html += '<img src="" img-path="assets/img/logo-innovation.PNG" alt="Innovation Lab">';
-            html += '<img src="" img-path="assets/img/logo-tec.png" alt="Campus Tec">';
-            html += '<img src="" img-path="assets/img/logo-wie.jpg" alt="IEEE Women In Engineering">';
-            $("#galileo-logo").html(html);
 
-            $("#galileo-logo").find('img').each((index, element)=>{
-                element.onload = () => {
-                    $(element).css('opacity', '1');
+
+            if (($(window).height() > 490) && ($(window).width() > 880)) {
+                    var html = '';
+                    html += '<img src="" img-path="assets/img/logo-gdg.png" alt="GDG">';
+                    html += '<img src="" img-path="assets/img/logo-galileo.png" alt="Universidad Galileo">';
+                    html += '<img src="" img-path="assets/img/logo-innovation.png" alt="Innovation Lab">';
+                    html += '<img src="" img-path="assets/img/logo-tec.png" alt="Campus Tec">';
+                    html += '<img src="" img-path="assets/img/logo-wie.png" alt="IEEE Women In Engineering">';
+                    $("#galileo-logo").html(html);
+
+                    $("#galileo-logo").find('img').each((index, element)=>{
+                        element.onload = () => {
+                            $(element).css('opacity', '1');
+                        }
+
+                        $(element).attr('src', $(element).attr('img-path'));
+                    });
                 }
-
-                $(element).attr('src', $(element).attr('img-path'));
-            });
         }else{
             $('#innovation-logo').attr('src','assets/img/logo3.png');
             $('.background').html('');

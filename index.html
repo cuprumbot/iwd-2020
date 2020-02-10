@@ -27,7 +27,7 @@
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
-    <!-- Importaciones -->
+    <!-- Imports -->
     <link rel="stylesheet" href="assets/css/main.min.css">
     <script src="assets/js/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -36,8 +36,6 @@
     <script src="assets/js/subjects.js" type="text/javascript"></script>
     <script src="assets/js/config.js" type="text/javascript"></script>
     
-
-
     <title>IWD 2020</title>
 </head>
 <body font-family="Product">
@@ -48,20 +46,16 @@
             <span id="title-container" class="title-container no-select">
                 <span class="title">
                     <img id="innovation-logo" class="innovation-logo" src="" alt="">
-                    <!-- Google I/O Extended -->
                 </span>
-                <span class="title-menu">
-                    <h2>
-                        ¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a>
-                    </h2>
+                <span class="invitation">
+                        <center>
+                            ¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Cuéntanos más.</a>
+                        </center>
                 </span>
-                <!-- <span class="date">
-                    <b>30</b> y <b>31</b> de mayo
-                </span> -->
+
                 <span class="title-menu">
                     <a id="home-access" class="btn-menu c1">Principal</a>
                     <a id="staff-access" class="btn-menu c2">Conferencistas</a>
-                    <!-- <a id="projects-access" class="btn-menu red disabled">Codelabs</a> -->
                     <a id="agenda-access" class="btn-menu c3">Agenda</a>
                     <a id="place-access" class="btn-menu c4">Ubicación</a>
                     <!-- <a id="register-access" class="btn-menu green solid">Registrate</a> -->
@@ -88,7 +82,6 @@
             </a>
         </span> -->
     </span>
-    <!-- <span id="copyright" class="copyright">© 2019 Laboratorio de Innovacion.</span> -->
     <span id="galileo-logo" class="galileo-logo">
         
     </span>
@@ -109,7 +102,6 @@
 
     var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation.png', 'assets/img/logo-tec.png', 'assets/img/logo-wie.png'];
 
-
     function generateHome(){
         var element = $('#dynamic-information');
 
@@ -123,9 +115,12 @@
             html += 'Se tendrá una serie de conferencias de mujeres líderes en diversas áreas de la tecnología, comunicación, diseño gráfico y periodismo entre otras, además, se busca crear un espacio de networking.<br><br>';
             html += 'El evento es completamente gratuito, solo requiere inscripción.';
             html += '</p>';
+
             html += '<span class="subtitle">';
             html += 'Lugar y Fecha';
             html += '</span>';
+
+            /*
             html += '<p>';
             html += '<h3>Viernes 13 - Sede Universidad Galileo</h3><br>';
             html += '7a. Avenida, Calle Dr. Eduardo Suger Cofiño, zona 10.<br>';
@@ -136,8 +131,19 @@
             html += '8:00 a 13:00<br>';
             html += 'Charlas y keynote de cierre.'
             html += '</p>';
+            */
+            html += '<p>';
+            html += '<b><font size="3">Viernes 13 - Sede Universidad Galileo</font></b><br>';
+            html += '7a. Avenida, Calle Dr. Eduardo Suger Cofiño, zona 10.<br>';
+            html += '16:00 a 20:00<br>';
+            html += 'Charlas, talleres y panel de cierre.<br><br>';
+            html += '<b><font size="3">Sábado 14 - Sede Campus Tec</font></b><br>';
+            html += 'Vía 4 1-00, Zona 4.<br>';
+            html += '8:00 a 13:00<br>';
+            html += 'Charlas y keynote de cierre.'
+            html += '</p>';
 
-            html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a></h2></center>'
+            html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Cuéntanos más.</a></h2></center>'
 
         
         element.find('.section-body').html(html);
@@ -303,7 +309,7 @@
 
         html += '</span>';
 
-                    html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a></h2></center>'
+                    html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Cuéntanos más.</a></h2></center>'
 
 
         element.find('.section-body').html(html);
@@ -550,7 +556,7 @@
 
 
         html += '<span class="staff-container">';
-        html += '<p class="helper">Para ver más información sobre el conferencista presiona sobre su imagen.</p>'
+        html += '<p class="helper">Para ver más información sobre la conferencista presiona sobre su imagen.</p>'
         orderStaff.forEach(element => {
             html += `<span class="staff-card ${element.job}">`;
             //html += `<img class="staff-bg" src="assets/img/${element.image}">`;
@@ -579,7 +585,7 @@
         });
         html += '</span>';
 
-        html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Llamada a participación.</a></h2></center>'
+        html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Cuéntanos más.</a></h2></center>'
 
 
         element.find('.section-body').html(html);
@@ -651,7 +657,7 @@
     $(window).resize(()=>{
         if(inIndex){
             if(($(window).width() > 880)){
-                $('#innovation-logo').attr('src','assets/img/logo-main-web.png');
+                $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
                 //logo-main-web
                 $('.background').html('<img src="" alt="">');
                 $('.background').find('img')[0].onload = () => {
@@ -681,7 +687,7 @@
                     $("#galileo-logo").html("");
                 }
             }else{
-                $('#innovation-logo').attr('src','assets/img/logo-main.png');
+                $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
                 //logo-main-phone
                 $('.background').html('');
                 var html = '';
@@ -696,8 +702,12 @@
                 html += '<img src="">';
                 html += '</span>';
                 html += '</span>';
-                $("#galileo-logo").html(html);
-                activateCarousel();
+                if ($(window).height() > 490) {
+                    $("#galileo-logo").html(html);
+                    activateCarousel();
+                } else {
+                    $("#galileo-logo").html("");
+                }
             }
         }
     });
@@ -705,10 +715,6 @@
     function generatePlace(){
         var element = $('#dynamic-information');
         var html = '';
-
-        //html += '<span class="map-container">';
-        //html += '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.8173365635653!2d-90.50785318464814!3d14.60947918077454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3b512ee9afb%3A0xc8255d5feb146d4a!2sUniversidad+Galileo!5e0!3m2!1sen!2sgt!4v1557936136742!5m2!1sen!2sgt" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>';
-        //html += '</span>';
         
         html += '<center><h3>Viernes 13 - Universidad Galileo</h3></center>'
         html += '<span class="map-container">';
@@ -782,7 +788,8 @@
         } 
     }
 
-    $(document).ready(()=>{
+    //$(document).ready(()=>{
+    jQuery(function($) {
 
         if(window.location.hash) {
             var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
@@ -821,7 +828,7 @@
         };
 
         if(($(window).width() > 880)){
-            $('#innovation-logo').attr('src','assets/img/logo-main-web.png');
+            $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
             //logo-main-web
             $('.background').html('<img src="" alt="">');
             $('.background').find('img')[0].onload = () => {
@@ -848,7 +855,7 @@
                     });
                 }
         }else{
-            $('#innovation-logo').attr('src','assets/img/logo3.png');
+            $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
             $('.background').html('');
             var html = '';
             html += '<span class="external-container">';
@@ -862,8 +869,13 @@
             html += '<img src="">';
             html += '</span>';
             html += '</span>';
-            $("#galileo-logo").html(html);
-            activateCarousel();
+
+            if ($(window).height() > 490) {
+                $("#galileo-logo").html(html);
+                activateCarousel();
+            } else {
+                $("#galileo-logo").html("");
+            }
         }
 
         $('.btn-menu').click((event)=>{
@@ -896,5 +908,6 @@
             if(inExpanded) hideExpanded();
             else showIndex();
         });
-    });
+    //});
+    })(jQuery); 
 </script>

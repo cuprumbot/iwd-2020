@@ -66,7 +66,6 @@
     </span>
     <span id="dynamic-information" class="dynamic-information">
         <!-- <span class="section-title">
-
         </span> -->
         <span class="section-body">
             
@@ -120,18 +119,6 @@
             html += 'Lugar y Fecha';
             html += '</span>';
 
-            /*
-            html += '<p>';
-            html += '<h3>Viernes 13 - Sede Universidad Galileo</h3><br>';
-            html += '7a. Avenida, Calle Dr. Eduardo Suger Cofiño, zona 10.<br>';
-            html += '16:00 a 20:00<br>';
-            html += 'Charlas, talleres y panel de cierre.<br><br>';
-            html += '<h3>Sábado 14 - Sede Campus Tec</h3><br>';
-            html += 'Vía 4 1-00, Zona 4.<br>';
-            html += '8:00 a 13:00<br>';
-            html += 'Charlas y keynote de cierre.'
-            html += '</p>';
-            */
             html += '<p>';
             html += '<b><font size="3">Viernes 13 - Sede Universidad Galileo</font></b><br>';
             html += '7a. Avenida, Calle Dr. Eduardo Suger Cofiño, zona 10.<br>';
@@ -144,7 +131,6 @@
             html += '</p>';
 
             html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Cuéntanos más.</a></h2></center>'
-
         
         element.find('.section-body').html(html);
         
@@ -250,7 +236,6 @@
                         break;
                     }
                 }
-
                 
                 html += (night)? '<span class="event-time night">' : '<span class="event-time">';
                 html += '<span class="time">';
@@ -293,7 +278,6 @@
                     html += '</span>';
                     html += '<span class="staff-name">';
                     html += speaker.name;
-                    // html += '<span class="staff-expand">Ver más</span>';
                     html += '</span>';
                     html += '</span>';
                 }
@@ -309,7 +293,7 @@
 
         html += '</span>';
 
-                    html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Cuéntanos más.</a></h2></center>'
+        html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Cuéntanos más.</a></h2></center>'
 
 
         element.find('.section-body').html(html);
@@ -321,7 +305,6 @@
             element = $(event.currentTarget);
             if(!element.hasClass('selected')){
                 var index = element.attr('n');
-                //console.log(index);
                 $('.day-selector').each((i, selector)=>{
                     if(selector.classList.contains('selected')) selector.classList.remove('selected');
                     if(selector.getAttribute('n') == index){
@@ -341,7 +324,6 @@
             element = $(event.currentTarget);
             if(!element.hasClass('selected')){
                 var index = element.attr('n');
-                //console.log(index);
                 $('.time-selector').each((i, selector)=>{
                     if(selector.classList.contains('selected')) selector.classList.remove('selected');
                     if(selector.getAttribute('n') == index){
@@ -551,7 +533,6 @@
 
     function generateStaff(){
         var element = $('#dynamic-information');
-        //element.find('.section-title').html('STAFF');
         var html = '';
 
 
@@ -559,7 +540,6 @@
         html += '<p class="helper">Para ver más información sobre la conferencista presiona sobre su imagen.</p>'
         orderStaff.forEach(element => {
             html += `<span class="staff-card ${element.job}">`;
-            //html += `<img class="staff-bg" src="assets/img/${element.image}">`;
             html += '<span class="staff-image">';
             html += (element.image == null)? '' : `<img class="img" img-path="assets/img/${element.image}" src="">`;
             if(element.gde != null){
@@ -666,7 +646,6 @@
                 }
                 //$('.background').find('img').attr('src','assets/img/fondo.png');
                 
-
                 if (($(window).height() > 490) && ($(window).width() > 880)) {
                     var html = '';
                     html += '<img src="" img-path="assets/img/logo-gdg.png" alt="GDG">';
@@ -811,7 +790,6 @@
                 orderStaff.forEach((actualElement, actualIndex) => {
                     var comp = getSecondName(element.name).localeCompare(getSecondName(actualElement.name), 'en', {sensitivity: 'base'});
                     if((comp == -1 || comp == 0) && !inserted){
-                        //console.log('SE CUMPLE');
                         orderStaff.splice(actualIndex, 0, element);
                         inserted = true;
                     }

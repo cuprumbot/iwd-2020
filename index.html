@@ -535,7 +535,6 @@
         var element = $('#dynamic-information');
         var html = '';
 
-
         html += '<span class="staff-container">';
         html += '<p class="helper">Para ver más información sobre la conferencista presiona sobre su imagen.</p>'
         orderStaff.forEach(element => {
@@ -634,9 +633,8 @@
         inIndex = true;
     }
 
-    $(window).resize(()=>{
-        if(inIndex){
-            if(($(window).width() > 880)){
+    function populate() {
+        if(($(window).width() > 880)){
                 $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
                 //logo-main-web
                 $('.background').html('<img src="" alt="">');
@@ -688,8 +686,9 @@
                     $("#galileo-logo").html("");
                 }
             }
-        }
-    });
+    }
+
+
 
     function generatePlace(){
         var element = $('#dynamic-information');
@@ -701,7 +700,7 @@
         html += '</span>';
         html += '<center><h3>Sábado 14 - Campus Tec</h3></center>'
         html += '<span class="map-container">';
-        html += '<iframe width="500" height="500" frameborder="0" src="https://maps.google.com/maps?q=campus%20tec&t=&z=17&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>';
+        html += '<iframe width="500" height="500" frameborder="0" src="https://maps.google.com/maps?q=campus%20tec%202&t=&z=17&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>';
         html += '</span>';
 
 
@@ -767,18 +766,26 @@
         } 
     }
 
+    /* Draw again if size or orientation changes */
+    $(window).resize(()=>{
+        if(inIndex) { populate(); }
+    });
+    window.addEventListener("orientationchange", function() {
+        if (inIndex) { populate(); }
+    }, false);
+
+
+
     //$(document).ready(()=>{
-    jQuery(function($) {
+    (function($) {
 
         if(window.location.hash) {
-            var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+            // Remove the # character
+            var hash = window.location.hash.substring(1); 
             if(hash == 'register'){
                 hideIndex();
                 generateRegister();
             }
-            // hash found
-        } else {
-            // No hash found
         }
 
         var inserted = false;
@@ -800,61 +807,11 @@
             }
         });
 
-        console.log();
         $('#innovation-logo')[0].onload = ()=>{
             if(inIndex) $('.title-container').css('opacity', '1');
         };
 
-        if(($(window).width() > 880)){
-            $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
-            //logo-main-web
-            $('.background').html('<img src="" alt="">');
-            $('.background').find('img')[0].onload = () => {
-                if(inIndex) $('.background').css('opacity', '1');
-                $('.background').css('transform', 'scale(1)');
-            }
-
-
-            if (($(window).height() > 490) && ($(window).width() > 880)) {
-                    var html = '';
-                    html += '<img src="" img-path="assets/img/logo-gdg.png" alt="GDG">';
-                    html += '<img src="" img-path="assets/img/logo-galileo.png" alt="Universidad Galileo">';
-                    html += '<img src="" img-path="assets/img/logo-innovation.png" alt="Innovation Lab">';
-                    html += '<img src="" img-path="assets/img/logo-tec.png" alt="Campus Tec">';
-                    html += '<img src="" img-path="assets/img/logo-wie.png" alt="IEEE Women In Engineering">';
-                    $("#galileo-logo").html(html);
-
-                    $("#galileo-logo").find('img').each((index, element)=>{
-                        element.onload = () => {
-                            $(element).css('opacity', '1');
-                        }
-
-                        $(element).attr('src', $(element).attr('img-path'));
-                    });
-                }
-        }else{
-            $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
-            $('.background').html('');
-            var html = '';
-            html += '<span class="external-container">';
-            html += '<span class="left-logo">';
-            html += '<img src="">';
-            html += '</span>';
-            html += '<span class="center-logo">';
-            html += '<img src="">';
-            html += '</span>';
-            html += '<span class="right-logo">';
-            html += '<img src="">';
-            html += '</span>';
-            html += '</span>';
-
-            if ($(window).height() > 490) {
-                $("#galileo-logo").html(html);
-                activateCarousel();
-            } else {
-                $("#galileo-logo").html("");
-            }
-        }
+        populate();
 
         $('.btn-menu').click((event)=>{
             if(!$(event.currentTarget).hasClass('disabled')){

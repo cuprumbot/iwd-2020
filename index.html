@@ -631,6 +631,11 @@
             element.find('.section-body').html('');
         },400);
         inIndex = true;
+        hideBackArrow();
+    }
+
+    function hideBackArrow() {
+        $('#back-container').find('.btn-back').css('transform', 'translateX(-85px)');
     }
 
     function populate() {

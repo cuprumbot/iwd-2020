@@ -28,7 +28,7 @@ var staff = [
 	},
 	{
 		name: 'Adriana Moya',
-		short : 'Esepcialista en Ingeniería de Software. Google Developer Expert en la categoría Google Cloud Platform. Cloud Engineer en Globant.',
+		short : 'Especialista en Ingeniería de Software. Google Developer Expert en la categoría Google Cloud Platform. Cloud Engineer en Globant.',
 		information: 'Ingeniera de Sistemas, especialista en Ingeniería de Software, Google Developer Expert en la categoría Google Cloud Platform, Cloud Engineer en Globant, con experiencia de más de 5 años en desarrollo usando tecnología de Open Source, Apasionada por enseñar,  aprender y compartir.  runner, ciclomontañista y amante de los gatos. Linkedin: https://www.linkedin.com/in/adrifermo/',
 		image: 'AdrianaMoya.png',
 		email: '-',

@@ -943,7 +943,8 @@ nav {
         margin-right: 6px; }
       .events-container .time-selection .time-selector.selected {
         cursor: default;
-        color: #4285f4; }
+        color: #4285f4;
+        background: #ddeeff; }
   .events-container .day-card {
     display: none; }
     .events-container .day-card.shown {

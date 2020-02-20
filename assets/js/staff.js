@@ -1,5 +1,32 @@
 var staff = [
 	{
+		name: 'Andrea Lara',
+		short: 'Presidenta de IEEE Women In Engineering Guatemala y directora de la Maestría en Ingeniería Biomédica en UG.',
+		information: 'Ingeniera en Electrónica de Universidad Galileo; Magister en Ingeniería Biomédica de la Universidad de Lubeck, Alemania; PhD Candidate de Ingeniería Biomédica en la Universidad Tecnológica de Graz, Austria. Presidenta de IEEE Women In Engineering Guatemala y directora de la Maestría en Ingeniería Biomédica en Universidad Galileo.',
+		image: 'AndreaLara.jpg',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Daniella Suger',
+		short: 'Ingeniera en Química. Coordinadora de Red UG de Responsabilidad Ambiental. Vice-Decana Facultad de Ingeniería Química.',
+		information: 'Ingeniera en Química de la Universidad del Valle de Guatemala. Coordinadora de Red Universidad Galileo de Responsabilidad Ambiental. Vice-Decana de la Facultad de Ingeniería Química de Universidad Galileo.',
+		image: 'DaniellaSuger.png',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Fernanda Ochoa',
+		short: 'Presidenta de Bravers A.C., fundadora de Team Bravers y Hack DHI. Github Campus Expert. Código Facilito Developer Advocate.',
+		information: 'Presidenta de Bravers A.C., fundadora de Team Bravers y Hack DHI. Github Campus Expert. Código Facilito Developer Advocate. Soy una persona que hace tecnología para ayudar a otras personas y me gustan los hackatones.',
+		image: 'FernandaOchoa.jpg',
+		email: '-',
+		company: '',
+		nationality: 'mexico'
+	},
+	{
 		name: 'Marian Villa',
 		short: 'Asesora en UI/UX de Google Launchpad y miembro calificador de SXSW 2020. CEO y co-fundadora de EVERSOCIAL.',
 		information: 'Es asesora en UI|UX de Google Launchpad y miembro calificador de SXSW 2020. Es CEO y co-fundadora de EVERSOCIAL agencia digital con más de 10 años en el mercado. Posee doble titulación como Diseñadora Gráfica y Comunicadora Social - Periodista de la Universidad Pontificia Bolivariana. Es Magister en Mercadeo de la universidad EAFIT donde su trabajo de grado se desarrolló sobre BIG DATA en Business Intelligence. Siempre ha trabajado de la mano de ingenieros y desarrolladores, y le apasiona el código, especialmente Javascript. Desde finales de 2016 es co-fundadora y Directora de @Pionerasdev, la Comunidad/ONG más grande de #WomenInTech en Colombia. Trabajando así, por reducir la brecha de género en carreras tecnológicas, enfocada en el cumplimiento de los ODS del Pacto Global de la ONU, específicamente en: Educación de calidad, equidad de género, trabajo decente y crecimiento económico y  reducción de las desigualdades.',

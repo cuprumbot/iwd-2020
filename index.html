@@ -99,7 +99,7 @@
     var inExpanded = false;
     var orderStaff = new Array();
 
-    var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation.png', 'assets/img/logo-agexport.png', 'assets/img/logo-wie.png', 'assets/img/logo-wwcode.png'];
+    var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-agexport.png', 'assets/img/logo-wie.png', 'assets/img/logo-wwcode.png', 'assets/img/logo-telus.png'];
 
     function generateHome(){
         var element = $('#dynamic-information');
@@ -707,7 +707,7 @@
     }
 
     function populate() {
-        if(($(window).width() > 970)){
+        if(($(window).width() > 900)){
                 $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
                 //logo-main-web
                 $('.background').html('<img src="" alt="">');
@@ -717,14 +717,15 @@
                 }
                 //$('.background').find('img').attr('src','assets/img/fondo.png');
                 
-                if (($(window).height() > 490) && ($(window).width() > 970)) {
+                if (($(window).height() > 490) && ($(window).width() > 900)) {
                     var html = '';
                     html += '<img src="" img-path="assets/img/logo-gdg.png" alt="GDG">';
                     html += '<img src="" img-path="assets/img/logo-galileo.png" alt="Universidad Galileo">';
-                    html += '<img src="" img-path="assets/img/logo-innovation.png" alt="Innovation Lab">';
+                    html += '<img src="" img-path="assets/img/logo-innovation-square.png" alt="Innovation Lab">';
                     html += '<img src="" img-path="assets/img/logo-agexport.png" alt="AGEXPORT">';
                     html += '<img src="" img-path="assets/img/logo-wie.png" alt="IEEE Women In Engineering">';
-                    html += '<img src="" img-path="assets/img/logo-wwcode.png" alt="Women Who Code">'
+                    html += '<img src="" img-path="assets/img/logo-wwcode.png" alt="Women Who Code">';
+                    html += '<img src="" img-path="assets/img/logo-telus.png" alt="Telus">';
                     $("#galileo-logo").html(html);
 
                     $("#galileo-logo").find('img').each((index, element)=>{

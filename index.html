@@ -58,6 +58,7 @@
                     <a id="staff-access" class="btn-menu c2">Conferencistas</a>
                     <a id="agenda-access" class="btn-menu c3">Agenda</a>
                     <a id="place-access" class="btn-menu c4">Ubicación</a>
+                    <a id="conduct-access" class="btn-menu c4">Conducta</a>
                     <a id="register-access" class="btn-menu green solid">Registrate</a>
                     <!-- <a id="placeholder-id" class="btn-menu green solid">Registrate</a> -->
                 </span>
@@ -81,6 +82,14 @@
             </a>
         </span> -->
     </span>
+
+<!--
+    <span id="dynamic-information-conduct" class="dynamic-information-conduct">
+        <span class="section-body">          
+        </span>
+    </span>
+--> 
+
     <span id="galileo-logo" class="galileo-logo">
         
     </span>
@@ -131,6 +140,61 @@
             html += '</p>';
 
             html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Cuéntanos más.</a></h2></center>'
+        
+        element.find('.section-body').html(html);
+        
+        element.css('opacity', '1');
+        element.css('transform', 'translateY(0)');
+        element.css('z-index', '1');
+    }
+
+    function generateConduct(){
+        var element = $('#dynamic-information');
+
+        var html = '';
+            html += '<span class="subtitle">';
+            html += 'Código de Conducta';
+            html += '</span>';
+
+            html += '<p>';
+            html += 'Requerimos que todos los asistentes, ponentes, patrocinadores y voluntarios de nuestra conferencia estén de acuerdo con el siguiente código de conducta. La organización se encargará de que se cumpla durante el evento. Esperamos la colaboración de todos los participantes para ayudar a construir un entorno seguro para todo el mundo.';
+            html += '</p>';
+
+            html += '<span class="subtitle">';
+            html += 'La versión rápida';
+            html += '</span>';
+
+            html += '<p>';
+            html += 'Queremos que esta conferencia sea una experiencia libre de acoso para todo el mundo sin importar su género, su identidad o expresión de género, edad, orientación sexual, discapacidad, aspecto físico, raza o religión.<br><br>';
+            html += 'No toleraremos el acoso de ningún tipo a ningún participante. El lenguaje o las imágenes sexuales no son apropiadas para el evento, incluyendo las charlas, Twitter y cualquier otro medio de comunicación. Los participantes que violen estas reglas podrán ser sancionados o expulsados de la conferencia a discreción de los organizadores.<br><br>'   
+            html += '</p>';
+
+            html += '<span class="subtitle">';
+            html += 'La versión no tan rápida';
+            html += '</span>';
+
+            html += '<p>';
+            html += 'Incluimos como acoso:';
+            html += '<ul>';
+            html += '<li>Los comentarios verbales ofensivos relacionados con el género, la identidad o expresión de género, edad, orientación sexual, discapacidad, apariencia física, raza, religión;</li>';
+            html += '<li>Imágenes sexuales en espacios públicos;</li>';
+            html += '<li>Intimidación deliberada;</li>';
+            html += '<li>Acecho o persecución;</li>';
+            html += '<li>El acoso con fotografías o vídeos;</li>';
+            html += '<li>La interrupción sostenida de charlas u otros eventos;</li>';
+            html += '<li>El contacto físico inapropiado;</li>';
+            html += '<li>La atención sexual no deseada.</li>';
+            html += '</ul>';
+            html += '</p>';
+
+            html += '<p>';
+            html += 'Los patrocinadores también se encuentran sujetos a esta política.<br><br>';
+            html += 'En concreto, los patrocinadores no deben usar imágenes, actividades u otro material sexualizado. El personal (incluyendo los voluntarios) no debe utilizar ropa/uniformes/disfraces sexualizados, o crear de ninguna otra forma un entorno sexualizado. Si un participante tiene un comportamiento de acoso, los organizadores de la conferencia podrán tomar cualquier acción que consideren apropiada, incluyendo advertir al infractor o su expulsión de la conferencia. Si estás siendo acosado, ves a alguien que lo está siendo o tienes alguna otra preocupación, por favor contacta con algún miembro de la organización inmediatamente. Los miembros de la organización estarán encantados de ayudar a los participantes a contactar con la seguridad del sitio o la policía local, proveer escolta o asistir de otra manera para ayudar a quienes están siendo acosados a sentirse seguros durante la conferencia. Valoramos tu asistencia. Esperamos que los participantes sigan estas reglas durante la conferencia.';
+            html += '</p>';
+
+/*
+            html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/8vwmz7eavhCPoyi5A">Cuéntanos más.</a></h2></center>'
+*/
         
         element.find('.section-body').html(html);
         
@@ -910,6 +974,9 @@
                     case 'register-access':{
                         generateRegister();
                     }break;
+                    case 'conduct-access':{
+                        generateConduct();
+                    }
                 }
             }
         });

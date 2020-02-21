@@ -1639,7 +1639,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 600px;
+      width: 700px;
       opacity: 0;
       transition: 0.5s ease;
       height: auto;
@@ -1728,9 +1728,9 @@ body {
         -khtml-user-select: none;
         -webkit-user-select: none;
         -o-user-select: none;
-        width: 650px;
+        width: 750px;
         flex-wrap: wrap;
-        max-width: 100%; }
+        /* max-width: 100%; */ }
 
         @media only screen and (orientation: portrait) {
           .title-container .inner-container .title-container .title-menu {
@@ -1749,7 +1749,7 @@ body {
           .title-container .inner-container .title-container .title-menu {
             width: 165px; } }
         .title-container .inner-container .title-container .title-menu .btn-menu {
-          padding: 6px 8px;
+          padding: 6px 12px;
           font-size: 15px;
           font-weight: bold;
           margin: 5px 0;

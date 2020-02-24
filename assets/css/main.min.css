@@ -1315,8 +1315,8 @@ nav {
   background: #AECBFA; }
 
 .agenda-container .other {
-  padding: 6px 6px !important;
-  margin: 0 16px; }
+  padding: 6px 6px 6px 6px !important;
+  margin: 16px 16px; }
 
 .agenda-container .events-container {
   margin-top: 30px; }

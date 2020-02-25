@@ -25,7 +25,7 @@ var events = [
 		speaker: '',
 		day: '14',
 		time: '08:00',
-		place: 'Campus Tec',
+		place: 'AGEXPORT',
 		subjects: [],
 		tba: '0'
 	}

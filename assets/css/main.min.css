@@ -1436,7 +1436,7 @@ body {
     opacity: 0;
     transition: 0.5s ease;
     height: 60px;
-    margin: 10px 15px; }
+    margin: 10px 10px; }
     @media only screen and (max-width: 500px) {
       .galileo-logo img {
         height: 42px;

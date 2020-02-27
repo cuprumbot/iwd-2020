@@ -1,4 +1,5 @@
 var events = [
+/*
 	{
 		name: 'Talleres técnicos',
 		description: 'Cloud computing y front-end development.',
@@ -9,6 +10,7 @@ var events = [
 		subjects: [],
 		tba: '0'
 	},
+*/
 	{
 		name: 'Talleres soft-skills',
 		description: 'Design thinking, #IamRemarkable y periodismo digital.',

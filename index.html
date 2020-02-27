@@ -258,14 +258,18 @@
         html += 'Sábado 14'
         html += '</span>';
         html += '</span>';
-
         html += '<span class="time-selection">';
+
+        /* Day/Night */
+        /*
         html += '<span n="1" class="time-selector selected">';
         html += '<i style="font-size: 20px;" class="far fa-sun"></i> Día'
         html += '</span>';
         html += '<span n="2" class="time-selector">';
         html += '<i style="font-size: 18px;" class="far fa-moon"></i> Noche'
         html += '</span>';
+        */
+
         html += '</span>';
         
         events.forEach((event)=>{
@@ -273,11 +277,15 @@
                 var hour = parseInt(event.time.substring(0, 2));
                 if(hour >= 12){
                     ap = 'PM';
+                    /* Day/Night */
+                    /*
                     if(hour >= 14){
                         night = true;
                     }else{
                         night = false;
                     }
+                    */
+                    night = false;
                     hour = (hour > 12)? hour - 12 : hour;
                 }else{
                     ap = 'AM';

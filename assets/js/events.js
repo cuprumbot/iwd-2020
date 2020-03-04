@@ -286,5 +286,5 @@ var events = [
 		place: 'Salón 3 - AGEXPORT',
 		subjects: [],
 		tba: '0'
-	},
+	}
 ];

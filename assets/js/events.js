@@ -1,17 +1,5 @@
 var events = [
 
-	{
-		name: 'Charlas',
-		description: 'Charlas y keynote.',
-		speaker: '',
-		day: '14',
-		time: '08:00',
-		place: 'AGEXPORT',
-		subjects: [],
-		tba: '0'
-	},
-
-
 	/* Viernes 16:00 */
 	{
 		name: 'Tips para crecer profesionalmente. Rápido.',
@@ -199,4 +187,19 @@ var events = [
 		subjects: [],
 		tba: '0'
 	},
+
+
+
+
+
+	{
+		name: 'Charlas',
+		description: 'Charlas y keynote.',
+		speaker: '',
+		day: '14',
+		time: '08:00',
+		place: 'AGEXPORT',
+		subjects: [],
+		tba: '0'
+	}
 ];

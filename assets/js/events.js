@@ -214,7 +214,7 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Biopolítica y biopoder en el siglo XXI como herramienta tecnológica para contrarrestar el fenómo del psicoplástico's,
+		name: 'Biopolítica y biopoder en el siglo XXI como herramienta tecnológica para contrarrestar el fenómo del psicoplástico',
 		description: '',
 		speaker: 'Verónica Vilma María Reyes Suruy',
 		day: '14',

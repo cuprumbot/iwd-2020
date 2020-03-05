@@ -286,5 +286,171 @@ var events = [
 		place: 'Salón 3 - AGEXPORT',
 		subjects: [],
 		tba: '0'
+	},
+
+	/* Sábado 9:50 */
+	{
+		name: 'Inteligencia artificial y salud: Dónde estamos y hacia dónde vamos',
+		description: '',
+		speaker: 'Andrea Lara',
+		day: '14',
+		time: '09:50',
+		place: 'Salón 1 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Robótica aeroespacial',
+		description: '',
+		speaker: 'Wendy Miranda',
+		day: '14',
+		time: '09:50',
+		place: 'Salón 2 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Tecnología al alcance',
+		description: '',
+		speaker: 'Isis Anabelle Oseida López',
+		day: '14',
+		time: '09:50',
+		place: 'Salón 3 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+
+	/* Sábado 10:10 */
+	{
+		name: 'El arte de vivir',
+		description: '',
+		speaker: 'Valeria García',
+		day: '14',
+		time: '10:10',
+		place: 'Salón 2 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'UI/UX',
+		description: '',
+		speaker: 'María Fernanda Montenegro Monterroso',
+		day: '14',
+		time: '10:10',
+		place: 'Salón 3 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+
+	/* Sábado 10:50 */
+	{
+		name: 'Coffee break',
+		description: '',
+		speaker: '',
+		day: '14',
+		time: '10:50',
+		place: 'AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+
+	/* Sábado 11:10 */
+	{
+		name: 'Tips para crecer profesionalmente',
+		description: '',
+		speaker: 'Mayra Rodríguez',
+		day: '14',
+		time: '10:10',
+		place: 'Salón 3 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+
+	/* Sábado 11:30 */
+	{
+		name: 'Yo también estoy hara de querer ser delgada',
+		description: '',
+		speaker: 'Ana Lucía Rosales Contreras',
+		day: '14',
+		time: '11:30',
+		place: 'Salón 2 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Herramientas digitales para gestión del tiempo',
+		description: '',
+		speaker: 'Karla Marisol Pérez Romero',
+		day: '14',
+		time: '11:30',
+		place: 'Salón 3 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+
+	/* Sábado 11:50 */
+	{
+		name: 'Leadership',
+		description: '',
+		speaker: 'Andrea María Quan López',
+		day: '14',
+		time: '11:50',
+		place: 'Salón 1 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Cree en ti y da el primer paso',
+		description: '',
+		speaker: 'Apri Tanisha Guevara Martinez',
+		day: '14',
+		time: '11:50',
+		place: 'Salón 2 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'UX Design Process Adventures',
+		description: '',
+		speaker: 'Gaby Futch',
+		day: '14',
+		time: '11:50',
+		place: 'Salón 3 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+
+	/* Sábado 12:10 */
+	{
+		name: 'Mujeres en el espacio y la participación de Guatemala',
+		description: '',
+		speaker: 'Katherinne Sofía Herrera Jordán',
+		day: '14',
+		time: '12:10',
+		place: 'Salón 2 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Haz un pívot en tu carrera profesional hacia la tecnología',
+		description: '',
+		speaker: 'Isis García',
+		day: '14',
+		time: '12:10',
+		place: 'Salón 3 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+
+	/* Sábado 12:50 */
+	{
+		name: 'Lidiando con el miedo a la desaprobación',
+		description: '',
+		speaker: 'Verónica Solís',
+		day: '14',
+		time: '12:50',
+		place: 'Salón 3 - AGEXPORT',
+		subjects: [],
+		tba: '0'
 	}
 ];

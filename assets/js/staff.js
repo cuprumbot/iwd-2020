@@ -302,7 +302,7 @@ var staff = [
 		name: 'Karla Marisol Pérez Romero',
 		short: 'Analista de proyectos en una empresa dedicada a consultoría SAP. Trabajando en darle un giro más educativo a mi canal de Youtube.',
 		information: 'Soy guatemalteca, ingeniera industrial y magister en administración de la calidad. Inicié laborando como asistente de cátedra en universidad Galileo y actualmente trabajo como analista de proyectos en una empresa dedicada a consultoría SAP. Tengo mi propio canal de Youtube y me encanta aprender cosas nuevas. Actualmente, me encuentro en preparación para una certificación SAP para manejo de proyectos y he estudiado en Platzi diferentes cursos de gestión de proyectos y tiempo. Estoy trabajando en darle un giro más educativo a mi canal de YouTube.',
-		image: 'default.png',
+		image: 'KarlaMarisolPerezRomero.png',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

@@ -73,17 +73,17 @@ var staff = [
 	},
 	{
 		name: 'Gabriela Grajeda Girón',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Productora audiovisual en Rocket Art Films. He producido videoclips para artistas nacionales, y spots para marcas.',
+		information: 'Soy productora audiovisual en Rocket Art Films, tengo 4 años de experiencia en el medio, he producido videoclips para artistas nacionales como Filoxera, Master Fader y El Clubo, he trabajado en cortos y documentales, también en spots publicitarios para marcas como Banco Azteca, Cervecería Centroamericana, Tigo, Movistar y production service para Pepsi con la productora argentina, Landia.',
+		image: 'GabrielaGrajedaGiron.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Ivette González Salazar',
-		short: '-',
-		information: '-',
+		short: 'Comunicadora social y periodista digital. Directora editorial para iLifebelt y Neuromarketing.la.',
+		information: 'Comunicadora social y periodista digital, certificada en inbound y content marketing. Directora editorial para iLifebelt y Neuromarketing.la.',
 		image: 'default.png',
 		email: '-',
 		company: '',
@@ -91,27 +91,27 @@ var staff = [
 	},
 	{
 		name: 'Sandra Escobar',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Profesional de las Ciencias de la Comunicación con 17 años de experiencia en periodismo, periodismo digital multimedia, redacción, entre otros.',
+		information: 'Profesional de las Ciencias de la Comunicación, con experiencia en: docencia universitaria, áreas administrativas, capacitación y gestión de recursos humanos. En Comunicación, 17 años de experiencia en: periodismo, periodismo digital multimedia, redacción, radio, televisión e impresos. Estudiante de posgrado en e-Learning 2020.',
+		image: 'SandraEscobar.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Beverly Morales',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Inquieta y sueña en grande. Fundadora de It\'s Green, empresa desarrolladora de energía solar',
+		information: '"Siempre fui inquieta con todo lo que me rodea y soñé en grande y me propuse y cumplir mis objetivos", afirma con una gran sonrisa. Hace cuatro años comenzó a estudiar Administración y en uno de sus cursos le tocó crear una empresa. "Me lo tomé muy en serio y fundé It\'s Green (Esto es Verde), una empresa desarrolladora de energía solar", recuerda. Este fue el punto de partida, pues sabía que debía aprender más sobre el campo de su compañía, algo que la llevó a especializarse en el tema y que la hizo comprender que podía ser agente de cambio.',
+		image: 'BeverlyMorales.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Andrea Cab',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Fundadora de Wonder Woman Guatemala. Mercadóloga con MBA y especialización en Customer Experience. Mentora y tallerista en varios summits.',
+		information: 'Fundadora de Wonder Woman Guatemala. Andrea es mercadóloga de corazón (y en papel!) de la Universidad Rafael Landívar, con MBA y una especialización en Customer Experience. Este año terminó su diplomado en derechos humanos de la Mujer de la Universidad Austral de Argentina y con ello pretende sensibilizar y fortalecer el empoderamiento femenino en el país. Desde hace varios años ha formado micro emprendimientos en diferentes industrias y en el 2014 co-fundó Grupo ValCab, una empresa que cuenta con varios departamentos de mercadeo representado a nivel regional una marca de contadores de personas y heatmaps que han ayudado a varias marcas de retail a segmentar, posicionar y recrear espacios en sus tiendas. Ha desarrollado una herramienta in-house de tracking de marketing insights que evalúan una parte primordial del customer journey de cada segmento de clientes. Ha participado y apoyado en varios summits como mentora y tallerista. Considera que Wonder Woman Guatemala es una comunidad que potencializará económica e integralmente a las mujeres en sus proyectos ya que cuenta con información y experiencia compartida por otras mujeres. Andrea dice: "Para dirigirnos hacia nuestras metas hay que mover el cuerpo pero bailar con nuestro cerebro!"',
+		image: 'AndreaCab.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
@@ -119,8 +119,8 @@ var staff = [
 	{
 		name: 'María Olga Samperio',
 		short: '-',
-		information: '-',
-		image: 'default.png',
+		information: 'Me gradué de diseño de servicio e industrial en SCAD (Savannah College of Arts and Design), luego trabaje dos años en Nueva York como diseñadora en una firma de mobiliario, hace dos años regrese a Guatemala decidí explorar el gremio de los textiles luego de 8 meses. Empeze en la startup Urbop, donde estoy trabajando actualmente como  product management, UX research y product designer.',
+		image: 'MariaOlgaSamperio.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

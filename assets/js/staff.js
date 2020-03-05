@@ -165,7 +165,7 @@ var staff = [
 		name: 'Regina del Carmen Davila Andrade',
 		short: 'Arquitecta con dos maestrías en el extranjero, con muchas experiencias propias que compartir.',
 		information: 'Tengo 37 años, casada desde hace 11, 2 niños biológicos, 1 nena en acogimiento temporal, mamá enferma, empresaria desde hace 10. Criada en colegio de monjas, ex deportista federada, arquitecta, 2 maestrías en el extranjero. Muchos errores de los cuales aprendí, muchas experiencias propias que compartir (desde los embarazos de alto riesgo, haber sobrevivido a un infarto cerebral, etc). ',
-		image: 'default.png',
+		image: 'ReginaDavila.png',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
@@ -192,7 +192,7 @@ var staff = [
 		name: 'Verónica Vilma María Reyes Suruy',
 		short: 'Politóloga con Maestría en Gestión. CEO en Biofuture S.A. y socia en Café Don Vicente.',
 		information: 'Soy politóloga egresada de la USAC, con estudios de maestría en gestión, formulación dirección de proyectos, he trabajado en cooperación internacional en temas de desarrollo social, docente universitario. Actualmente soy CEO en Biofuture S.A. y socia en Café Don Vicente.',
-		image: 'default.png',
+		image: 'VeronicaReyes.png',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
@@ -338,7 +338,7 @@ var staff = [
 		name: 'Katherinne Sofía Herrera Jordán',
 		short: 'Trabajo para una empresa de medicina natural y estoy a punto de domenzar mi tesis con muestras de la Estación Espacial Internacional.',
 		information: 'Soy estudiante de Bioquímica y Microbiología en la Universidad del Valle de Guatemala. Me encanta la microbiología y la conservación. Actualmente me encuentro trabajando desarrollando una metodología de identificación de metabolitos por medio de TLC para una empresa de medicina natural y me encuentro a punto de comenzar mi tesis con muestras de la Estación Espacial Internacional, debido a que realicé mis prácticas profesionales con Bioserve en dos proyectos financiados por la NASA. Sobre conservación, he investigado sobre el Heloderma de Zacapa y también tomo fotografías de arañas para educar sobre la diversidad de Guatemala y su importancia en el ecosistema. ',
-		image: 'default.png',
+		image: 'KatherinneHerrera.png',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

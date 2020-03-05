@@ -18,15 +18,6 @@ var staff = [
 		nationality: 'guatemala'
 	},
 	{
-		name: 'Fernanda Ochoa',
-		short: 'Presidenta de Bravers A.C., fundadora de Team Bravers y Hack DHI. Github Campus Expert. Código Facilito Developer Advocate.',
-		information: 'Presidenta de Bravers A.C., fundadora de Team Bravers y Hack DHI. Github Campus Expert. Código Facilito Developer Advocate. Soy una persona que hace tecnología para ayudar a otras personas y me gustan los hackatones.',
-		image: 'FernandaOchoa.jpg',
-		email: '-',
-		company: '',
-		nationality: 'mexico'
-	},
-	{
 		name: 'Marian Villa',
 		short: 'Asesora en UI/UX de Google Launchpad y miembro calificador de SXSW 2020. CEO y co-fundadora de EVERSOCIAL.',
 		information: 'Es asesora en UI|UX de Google Launchpad y miembro calificador de SXSW 2020. Es CEO y co-fundadora de EVERSOCIAL agencia digital con más de 10 años en el mercado. Posee doble titulación como Diseñadora Gráfica y Comunicadora Social - Periodista de la Universidad Pontificia Bolivariana. Es Magister en Mercadeo de la universidad EAFIT donde su trabajo de grado se desarrolló sobre BIG DATA en Business Intelligence. Siempre ha trabajado de la mano de ingenieros y desarrolladores, y le apasiona el código, especialmente Javascript. Desde finales de 2016 es co-fundadora y Directora de @Pionerasdev, la Comunidad/ONG más grande de #WomenInTech en Colombia. Trabajando así, por reducir la brecha de género en carreras tecnológicas, enfocada en el cumplimiento de los ODS del Pacto Global de la ONU, específicamente en: Educación de calidad, equidad de género, trabajo decente y crecimiento económico y  reducción de las desigualdades.',
@@ -264,17 +255,17 @@ var staff = [
 	},
 	{
 		name: 'Wendy Miranda',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Ingeniera en electrónica.  Postgrado en Aerospace Engineering. MBA.  Cátedra de robótica y Telecom. Experta en TV digital.',
+		information: 'Ingeniera en electrónica.  Postgrado en Aerospace Engineering. MBA.  Cátedra de robótica y Telecom. Experta en TV digital.',
+		image: 'WendyMiranda.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Isis Anabelle Oseida López',
-		short: '-',
-		information: '-',
+		short: 'Autora de Cuentos Ilustrados. Creadora de la Iniciativa de Promoción de la Lectura Te Cuento Un Cuento Guatemala.',
+		information: 'Estudiante de Ciencias Jurídicas y Sociales de la Universidad de San Carlos de Guatemala. Autora de Cuentos Ilustrados. Creadora de la Iniciativa de Promoción de la Lectura Te Cuento Un Cuento Guatemala.',
 		image: 'default.png',
 		email: '-',
 		company: '',
@@ -291,26 +282,26 @@ var staff = [
 	},
 	{
 		name: 'María Fernanda Montenegro Monterroso',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Actualmente laboro para GPD, empresa que se dedica a la asesoría y desarrollo de software.',
+		information: 'Soy esposa y mamá de una nena hermosa, ingeniera en sistemas egresada de la Universidad Mariano Gálvez de Guatemala, me gusta pasar tiempo con mi familia y con mi equipo de trabajo que es mi segundo hogar, actualmente laboro para GPD que es una empresa que se dedica a la asesoría y desarrollo de software junto a mi esposo quien también es Ingeniero en Sistemas, entre mis funciones dentro de la empresas son desarrollar, analizar, apoyar en cualquier otro ambiente en el que se necesite, entre mis metas a mediano plazo es ser catedrática de la Universidad.',
+		image: 'MariaFernandaMontenegroMonterroso.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Ana Lucía Rosales Contreras',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Me gusta moverme por la ciudad en la bici o caminando. Artista de maquillaje y artes performaticas.',
+		information: 'Me gusta moverme por la ciudad en la bici o caminando, descubrís cosas que normalmente no verías si vas en carro. También soy artista de maquillaje y artes performaticas y me han dado herramientas para crecer como persona. Soy extrovertida, alegre y divertida, me gusta conocer las motivaciones y pasiones de las personas. ',
+		image: 'AnaLuciaRosalesContreras.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Karla Marisol Pérez Romero',
-		short: '-',
-		information: '-',
+		short: 'Analista de proyectos en una empresa dedicada a consultoría SAP. Trabajando en darle un giro más educativo a mi canal de Youtube.',
+		information: 'Soy guatemalteca, ingeniera industrial y magister en administración de la calidad. Inicié laborando como asistente de cátedra en universidad Galileo y actualmente trabajo como analista de proyectos en una empresa dedicada a consultoría SAP. Tengo mi propio canal de Youtube y me encanta aprender cosas nuevas. Actualmente, me encuentro en preparación para una certificación SAP para manejo de proyectos y he estudiado en Platzi diferentes cursos de gestión de proyectos y tiempo. Estoy trabajando en darle un giro más educativo a mi canal de YouTube.',
 		image: 'default.png',
 		email: '-',
 		company: '',
@@ -318,18 +309,18 @@ var staff = [
 	},
 	{
 		name: 'Andrea María Quan López',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Senior Engineer Manager en Xoom Guatemala. Lead en Guatemala del Affinity Group de las mujeres en Paypal. Una de las leads en Women Who Code.',
+		information: 'Más de 15 años en el area de desarrollo de Software, más 10 años como catedrática en la Universidad Galileo de los cursos de Ciencias de la Computación e Informática, Actualmente: coordinadora de los cursos introductorios de programación en la Universidad Galileo, Senior Engineer Manager en Xoom Guatemala, lead en Guatemala del Affinity Group de las mujeres en Paypal (Unity), uno de los leads en Women Who Code.',
+		image: 'AndreaMariaQuanLopez.png',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Apri Tanisha Guevara Martinez',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Fundadora de Women for Tic-GT. Desde hace ocho años trabaja con una institución sin fines de lucro apoyando la educación.',
+		information: '"Soy estudiante de Ingeniería en Sistemas, fundadora de Women for Tic-GT, en la que buscamos incrementar la participación y empoderamiento de la mujer en las tics, como también, inspiramos y cultivamos curiosidad por la tecnología en niños. Trabajo con una institución sin fines de lucro desde hace 8 años, apoyando la educación."',
+		image: 'ApriTanishaGuevaraMartinez.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

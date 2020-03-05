@@ -118,8 +118,8 @@ var staff = [
 	},
 	{
 		name: 'María Olga Samperio',
-		short: '-',
-		information: 'Me gradué de diseño de servicio e industrial en SCAD (Savannah College of Arts and Design), luego trabaje dos años en Nueva York como diseñadora en una firma de mobiliario, hace dos años regrese a Guatemala decidí explorar el gremio de los textiles luego de 8 meses. Empeze en la startup Urbop, donde estoy trabajando actualmente como  product management, UX research y product designer.',
+		short: 'Graduada del Savannah College of Arts and Design. Project manager, UX researcher y product designer en la startup Urbop.',
+		information: 'Me gradué de diseño de servicio e industrial en SCAD (Savannah College of Arts and Design), luego trabaje dos años en Nueva York como diseñadora en una firma de mobiliario, hace dos años regrese a Guatemala decidí explorar el gremio de los textiles luego de 8 meses. Empeze en la startup Urbop, donde estoy trabajando actualmente como product management, UX research y product designer.',
 		image: 'MariaOlgaSamperio.jpg',
 		email: '-',
 		company: '',
@@ -172,8 +172,8 @@ var staff = [
 	},
 	{
 		name: 'Regina del Carmen Davila Andrade',
-		short: '-',
-		information: '-',
+		short: 'Arquitecta con dos maestrías en el extranjero, con muchas experiencias propias que compartir.',
+		information: 'Tengo 37 años, casada desde hace 11, 2 niños biológicos, 1 nena en acogimiento temporal, mamá enferma, empresaria desde hace 10. Criada en colegio de monjas, ex deportista federada, arquitecta, 2 maestrías en el extranjero. Muchos errores de los cuales aprendí, muchas experiencias propias que compartir (desde los embarazos de alto riesgo, haber sobrevivido a un infarto cerebral, etc). ',
 		image: 'default.png',
 		email: '-',
 		company: '',
@@ -181,26 +181,26 @@ var staff = [
 	},
 	{
 		name: 'Alma Peraza',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Licenciada en comunicación y diseño. Diseñadora gráfica y social media manager para distintas empresas.',
+		information: 'Soy Licenciada en comunicación y diseño, graduada de la Universidad Galileo. Actualmente estoy estudiando una maestría en marketing digital. Mi experiencia laboral ha sido como diseñadora gráfica y social media manager para empresas dedicadas a diferentes segmentos, desde educación y salud hasta marcas en productos retail.',
+		image: 'AlmaPeraza.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Andrea Noemí Mazariegos Rivas',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Ingeniera de profesión y emprendedora de corazón. Especializacion en desarrollo de nuevos negocios por MIT. Co-fundadora de un par de startups.',
+		information: 'Ingeniera de profesión y emprendedora de corazón, siempre me ha fascinado crear espacios nuevos y oportunidades para mí y para otros. Actualmente trabajo en la fundación Suiza para el desarrollo en un proyecto de mejora sistémica del ecosistema de emprendimiento. Tengo una especialización en desarrollo de nuevos negocios por MIT, experiencia en manejo de proyectos y análisis financiero para empresas multinacionales y experiencia como co-fundadora de un par de startups. Me gustan los perros y el café',
+		image: 'AndreaNoemiMazariegosRivas.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Verónica Vilma María Reyes Suruy',
-		short: '-',
-		information: '-',
+		short: 'Politóloga con Maestría en Gestión. CEO en Biofuture S.A. y socia en Café Don Vicente.',
+		information: 'Soy politóloga egresada de la USAC, con estudios de maestría en gestión, formulación dirección de proyectos, he trabajado en cooperación internacional en temas de desarrollo social, docente universitario. Actualmente soy CEO en Biofuture S.A. y socia en Café Don Vicente.',
 		image: 'default.png',
 		email: '-',
 		company: '',
@@ -208,22 +208,23 @@ var staff = [
 	},
 	{
 		name: 'Ivonne Aldana',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Más de 10 años de experiencia en tecnología y docencia. Me encanta apoyar iniciativas de y para mujeres.',
+		information: 'Trabajo en tecnología y en docencia desde hace más de 10 años y lo amo, soy feminista, me encanta apoyar iniciativas de y para mujeres, soy mamá desde hace 6 años y esposa desde hace 8. Me encanta leer, el café,  ver películas y series, aprender cosas nuevas y detesto las dietas.',
+		image: 'IvonneAldana.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Yolanda Patricia López Solis',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Ingeniera de software profesional apasionada por la computación en la nube y la cultura DevOps. Siete años de experiencia en desarrollo de aplicaciones y SDLC.',
+		information: 'Soy una Ingeniera de software profesional apasionada por la computación en la nube y la cultura DevOps. Tengo siete años de experiencia en desarrollo de aplicaciones y todo SDLC. Actualmente, estoy enfocado en la arquitectura de infraestructura de nube para sistemas resistentes, implementando enfoques como infraestructura inmutable e infraestructura como código.',
+		image: 'YolandaPatriciaLopezSolis.png',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
+	/* TO DO: buscar en CFP */
 	{
 		name: 'Massiel Calderón',
 		short: '-',
@@ -233,6 +234,7 @@ var staff = [
 		company: '',
 		nationality: 'guatemala'
 	},
+	/* TO DO: buscar en CFP */
 	{
 		name: 'Cecilia Castillo',
 		short: '-',
@@ -244,8 +246,8 @@ var staff = [
 	},
 	{
 		name: 'María Fernanda Alvarado Castillo',
-		short: '-',
-		information: '-',
+		short: 'Fotógrafa freelance apasionada por la fotografía urbana. Ha realizado sesiones con músicos.',
+		information: 'Mi nombre es Fernanda Alvarado, tengo 24 años de edad y nací en Guatemala. Actualmente trabajo en un call center, como maestra de inglés, y fotógrafa freelance. Aunque mi pasión es la fotografía urbana, también he hecho sesiones planificadas, especialmente con músicos, como Kadmon Band, Rebeca Lane, etc. Desde pequeña me ha movido el arte; en mis tiempos libres también disfruto pintar con acuarela y asistir a eventos culturales. Atesoro mi tiempo en soledad, aunque irónicamente no vine sola al mundo, sino con un mellizo. Mi palabra favorita es "ternura", me parece una palabra llena de calidez y muy genuina, y es eso precisamente lo que atrae mi mirada y suelo capturar con la cámara.',
 		image: 'default.png',
 		email: '-',
 		company: '',
@@ -253,9 +255,9 @@ var staff = [
 	},
 	{
 		name: 'Lucía Lucero',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Ingeniera en sistema con inco años de experiencia en gestión de proyectos de tecnología.',
+		information: 'Ingeniera en sistemas, gestionando proyectos de tecnología en los últimos 5 años, con gusto por poder conocer mi país (y otros) capturando los mejores momentos ya que mis principales hobbies son viajar y la fotografía  ',
+		image: 'LuciaLucero.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

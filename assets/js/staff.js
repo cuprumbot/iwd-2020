@@ -228,9 +228,9 @@ var staff = [
 	/* TO DO: buscar en CFP */
 	{
 		name: 'Cecilia Castillo',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Ingeniera en sistemas, Se dedica al desarrollo de aplicaciones móviles en Xoom, ha trabajado en aplicaciones de Android e iOS.',
+		information: 'Ceci es Ingeniera en sistemas, Se dedica al desarrollo de aplicaciones móviles en Xoom, ha trabajado en aplicaciones de Android e iOS. Ella coorganiza el grupo de usuarios de desarrolladores de Google en Guatemala y el evento Women Tech Maker.',
+		image: 'CeciliaCastillo.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

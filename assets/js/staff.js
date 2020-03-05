@@ -327,22 +327,23 @@ var staff = [
 	},
 	{
 		name: 'Gaby Futch',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Diseñadora gráfica. Tengo siete años de experiencia en diversas ramas de diseño gráfico. Co-fundadora de una marca de jabones artesanales.',
+		information: 'Mi nombre es Gaby Futch, tengo 26 años y soy una diseñadora gráfica que reside en la Ciudad de Guatemala. Tengo 7 años de experiencia en diversas ramas de diseño gráfico tales como branding, UX/UI, dirección de arte, diseño web, diseño editorial, artes impresos, fotografía, creación de contenido, diseño web, y más. En mi opinión, el diseño debe ser centrado en el ser humano, ser experimental, funcionar de una manera bella y hacernos sentir algo. Soy co-fundadora de una marca de jabones artesanales. Disfruto leer, estudiar modelos de negocio, viajar y aprender cosas nuevas. ',
+		image: 'GabyFutch.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Katherinne Sofía Herrera Jordán',
-		short: '-',
-		information: '-',
+		short: 'Trabajo para una empresa de medicina natural y estoy a punto de domenzar mi tesis con muestras de la Estación Espacial Internacional.',
+		information: 'Soy estudiante de Bioquímica y Microbiología en la Universidad del Valle de Guatemala. Me encanta la microbiología y la conservación. Actualmente me encuentro trabajando desarrollando una metodología de identificación de metabolitos por medio de TLC para una empresa de medicina natural y me encuentro a punto de comenzar mi tesis con muestras de la Estación Espacial Internacional, debido a que realicé mis prácticas profesionales con Bioserve en dos proyectos financiados por la NASA. Sobre conservación, he investigado sobre el Heloderma de Zacapa y también tomo fotografías de arañas para educar sobre la diversidad de Guatemala y su importancia en el ecosistema. ',
 		image: 'default.png',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
+	/* TO DO: buscar en CFP */
 	{
 		name: 'Verónica Solís',
 		short: '-',

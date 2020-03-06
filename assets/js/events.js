@@ -35,7 +35,7 @@ var events = [
 	},
 	{
 		name: 'El arte de no ser odiada',
-		description: '',
+		description: 'Cómo sobrevivir en el mundo de la producción siendo mujer (Procedimientos, prótocolo en set, jerarquías y ejecución)',
 		speaker: 'Gabriela Grajeda Girón',
 		day: '13',
 		time: '16:25',
@@ -47,7 +47,7 @@ var events = [
 	/* Viernes 16:50 */
 	{
 		name: 'El rol del storytelling en el marketing de contenidos como herramienta para mujeres emprendedoras',
-		description: '',
+		description: 'Contar historias nos hace poderosas, nos ayuda a construir comunidad y redes sororas, pero también nos sirve como herramienta para potenciar la promoción de nuestros emprendimientos.',
 		speaker: 'Ivette González Salazar',
 		day: '13',
 		time: '16:50',
@@ -57,7 +57,7 @@ var events = [
 	},
 	{
 		name: 'Mi video con calidad profesional desde el móvil y con telepromter BIGVU',
-		description: '',
+		description: '¿Tu trabajo implica la creación de videos? Hazlo con calidad profesional y estética. Utiliza recursos como el telepromter BIGVU para que ofrezcas una imagen impecable.',
 		speaker: 'Sandra Escobar',
 		day: '13',
 		time: '16:50',
@@ -69,7 +69,7 @@ var events = [
 	/* Viernes 17:15 */
 	{
 		name: 'Empoderamiento de las mujeres en la energía solar',
-		description: '',
+		description: 'Para mi es importante que mas mujeres se atrevan a liderar grandes proyectos en mi area.',
 		speaker: 'Beverly Morales',
 		day: '13',
 		time: '17:15',
@@ -79,7 +79,7 @@ var events = [
 	},
 	{
 		name: 'Marketing disruptivo / Marketing model (Taller con Wake Up Brain)',
-		description: '',
+		description: 'Innovación y creatividad con apoyo del marketing.',
 		speaker: 'Andrea Cab',
 		day: '13',
 		time: '17:15',
@@ -91,7 +91,7 @@ var events = [
 	/* Viernes 17:35 */
 	{
 		name: 'This is UX',
-		description: '',
+		description: 'Skills claves, herramientas, procesos y jargon.',
 		speaker: 'María Olga Samperio',
 		day: '13',
 		time: '17:35',
@@ -101,7 +101,7 @@ var events = [
 	},
 	{
 		name: '¿Arte o diseño? No, comunicación',
-		description: '',
+		description: 'El arte contemporáneo, lo conceptual, el objeto, la tecnología, la fotografía, la producción audiovisual, el diseño, incluso el periodismo. Tal vez a veces no se trata de "no entiendo el arte" sino de "no hablo este lenguaje".',
 		speaker: 'Nora Pérez',
 		day: '13',
 		time: '17:35',
@@ -111,7 +111,7 @@ var events = [
 	},
 	{
 		name: 'Transformación digital',
-		description: '',
+		description: 'Por medio de la transformacion digital  mejoramos la productividad, la colaboración y la gestión inteligente de la información para la toma de decisiones estratégicas.',
 		speaker: 'Bessy Chan',
 		day: '13',
 		time: '17:35',
@@ -123,7 +123,7 @@ var events = [
 	/* Viernes 17:50 */
 	{
 		name: 'Currículo en tecnología y experiencia en equipos de robótica',
-		description: '',
+		description: 'Innovación del área de tecnología, actividades y aprendizaje en todos los niveles (Pre Primaria a Bachillerato).',
 		speaker: 'María Rebeca Mendizabal Rivera',
 		day: '13',
 		time: '17:50',
@@ -133,7 +133,7 @@ var events = [
 	},
 	{
 		name: 'Manual de supervivencia de un ilustrador',
-		description: '',
+		description: 'Ejemplos de como exponerse en redes sociales de forma profesional, monetizar tu hobby sin que se vuelva una obligación y como aplicar a fanzines.',
 		speaker: 'Holly Milián',
 		day: '13',
 		time: '17:50',
@@ -143,7 +143,7 @@ var events = [
 	},
 	{
 		name: 'Emprendiendo mi vida nueva',
-		description: '',
+		description: 'Cómo el utilizando los únicos recursos que tenía, mi celular y el wifi logré emprender mi empresa.',
 		speaker: 'Grace Marie Galicia',
 		day: '13',
 		time: '17:50',
@@ -155,7 +155,7 @@ var events = [
 	/* Viernes 18:05 */
 	{
 		name: 'Equilibrio de empresaria, mujer y otros problemas',
-		description: '',
+		description: 'Soy arquitecta fundadora de Interni Arquitectos. En un país donde la arquitectura está hecha para hombres, quiero contar mi historia personal.',
 		speaker: 'Regina del Carmen Davila Andrade',
 		day: '13',
 		time: '18:05',
@@ -167,7 +167,7 @@ var events = [
 	/* Viernes 18:25 */
 	{
 		name: 'La importancia del diseño y el contenido digital',
-		description: '',
+		description: 'El diseño gráfico es muy importante para la creación de contenido actual y para poder comunicar correctamente debemos tomar en cuenta ciertos factores.',
 		speaker: 'Alma Peraza',
 		day: '13',
 		time: '18:25',
@@ -205,7 +205,7 @@ var events = [
 	/* Sábado 8:50 */
 	{
 		name: 'La anatomía de la pena: Por qué no decimos lo que queremos y cómo eso nos detiene',
-		description: '',
+		description: 'Este taller pretende analizar de dónde salen todas estas dudas que tenemos de nosotras mismas, cómo nos afectan y dar pasos sencillos para auto-evaluarnos, darnos ánimos y sobre todo, decir lo que pensamos y sentimos, expresando con claridad y asertividad nuestras necesidades. ',
 		speaker: 'Andrea Noemí Mazariegos Rivas',
 		day: '14',
 		time: '08:10',
@@ -215,7 +215,7 @@ var events = [
 	},
 	{
 		name: 'Biopolítica y biopoder en el siglo XXI como herramienta tecnológica para contrarrestar el fenómo del psicoplástico',
-		description: '',
+		description: 'Hablar sobre poder político de decision sobre los productos locales, orgánicos y de comercio justo junto a la tecnología como manera de empoderamiento individial frente a la psicopatología del plástico y la vulneración socioambiental.',
 		speaker: 'Verónica Vilma María Reyes Suruy',
 		day: '14',
 		time: '08:50',
@@ -225,7 +225,7 @@ var events = [
 	},
 	{
 		name: 'Tips para encontrar trabajo 100% remoto',
-		description: '',
+		description: 'Qué es y qué no es trabajar remoto, ventajas y desventajas, tips de cómo conseguir un trabajo remoto estando en Guatemala.',
 		speaker: 'Ivonne Aldana',
 		day: '14',
 		time: '08:50',
@@ -236,8 +236,8 @@ var events = [
 
 	/* Sábado 9:10 */
 	{
-		name: 'Aprende a comuniar tus ideas aprovechando al máximo tus habilidades técnicas',
-		description: '',
+		name: 'Aprende a comunicar tus ideas aprovechando al máximo tus habilidades técnicas',
+		description: 'Si te consideras un ingeniero de software que carece de habilidades sociales y principalmente de habilidades de comunicación, esto tal vez podría ser un obstáculo en tu crecimiento profesional. Aprenderás como aprovechar tus habilidades técnicas para hacer llegar tus ideas a las personas adecuadas e influir en la toma de desiciones.',
 		speaker: 'Yolanda Patricia López Solis',
 		day: '14',
 		time: '09:10',
@@ -269,7 +269,7 @@ var events = [
 	},
 	{
 		name: 'Fotografía urbana desde una perspectiva femenina',
-		description: '',
+		description: 'Esta charla está dirigida a mujeres de cualquier edad, a todas aquellas que alguna vez se han sentido incómodas al salir de casa. La experiencia de una chica que no sacaba el teléfono ni para ver la hora y ahora recorre las calles con cámara en mano en búsqueda de belleza en la cotidianidad.',
 		speaker: 'María Fernanda Alvarado Castillo',
 		day: '14',
 		time: '09:30',
@@ -279,7 +279,7 @@ var events = [
 	},
 		{
 		name: 'Project management',
-		description: '',
+		description: 'Compartir la experiencia desde el punto de vista de nosotras las mujeres haciendo énfasis a proyectos de tecnología ',
 		speaker: 'Lucía Lucero',
 		day: '14',
 		time: '09:30',
@@ -301,7 +301,7 @@ var events = [
 	},
 	{
 		name: 'Robótica aeroespacial',
-		description: '',
+		description: 'Mi experiencia en el MIT Aeroastro Departament. Trabajando con robots dentro de la ISS y oportunidades para GT.',
 		speaker: 'Wendy Miranda',
 		day: '14',
 		time: '09:50',
@@ -311,7 +311,7 @@ var events = [
 	},
 	{
 		name: 'Tecnología al alcance',
-		description: '',
+		description: 'Cómo la tecnología que está a nuestro alcance puede convertirse en una oportunidad para la realización de un sueño, meta  o proyecto',
 		speaker: 'Isis Anabelle Oseida López',
 		day: '14',
 		time: '09:50',
@@ -333,7 +333,7 @@ var events = [
 	},
 	{
 		name: 'UI/UX',
-		description: '',
+		description: 'Experiencias y percepciones emocionales de los usuarios al usar una interfaz.',
 		speaker: 'María Fernanda Montenegro Monterroso',
 		day: '14',
 		time: '10:10',
@@ -368,8 +368,8 @@ var events = [
 
 	/* Sábado 11:30 */
 	{
-		name: 'Yo también estoy hara de querer ser delgada',
-		description: '',
+		name: 'Yo también estoy harta de querer ser delgada',
+		description: 'Nutrición clínica utilizando técnicas psicológicas para llevar un tratamiento de la mano con cambio de hábitos alimenticios.',
 		speaker: 'Ana Lucía Rosales Contreras',
 		day: '14',
 		time: '11:30',
@@ -379,7 +379,7 @@ var events = [
 	},
 	{
 		name: 'Herramientas digitales para gestión del tiempo',
-		description: '',
+		description: 'Una breve descripción de gestión de tiempo y su importancia tanto para la vida personal como para la profesional. Herramientas más utilizadas versión gratuita y de pago.',
 		speaker: 'Karla Marisol Pérez Romero',
 		day: '14',
 		time: '11:30',
@@ -391,7 +391,7 @@ var events = [
 	/* Sábado 11:50 */
 	{
 		name: 'Leadership',
-		description: '',
+		description: 'Que significa ser un lider o un manager de tecnologia , como prepararse, tips, etc.',
 		speaker: 'Andrea María Quan López',
 		day: '14',
 		time: '11:50',
@@ -401,7 +401,7 @@ var events = [
 	},
 	{
 		name: 'Cree en ti y da el primer paso',
-		description: '',
+		description: 'Todos los días nos enfrentamos a situaciones en las que tener confianza y seguridad en nosotros mismos puede ser de gran ayuda. Quiero compartirles mi experiencia de vida, sobre cómo he superado mis miedos y he logrado mis objetivos. ',
 		speaker: 'Apri Tanisha Guevara Martinez',
 		day: '14',
 		time: '11:50',
@@ -411,7 +411,7 @@ var events = [
 	},
 	{
 		name: 'UX Design Process Adventures',
-		description: '',
+		description: 'Compartir el flujo de trabajo y proceso de diseño de UX para cualquier producto digital a través de mi experiencia, buenas prácticas y colaboraciones.',
 		speaker: 'Gaby Futch',
 		day: '14',
 		time: '11:50',
@@ -423,7 +423,7 @@ var events = [
 	/* Sábado 12:10 */
 	{
 		name: 'Mujeres en el espacio y la participación de Guatemala',
-		description: '',
+		description: 'Mujeres presentes en la investigación espacial o que forman parte del gremio de investigación espacial. Liderazgo para investigación en Guatemala y su participación en la investigación espacial.',
 		speaker: 'Katherinne Sofía Herrera Jordán',
 		day: '14',
 		time: '12:10',

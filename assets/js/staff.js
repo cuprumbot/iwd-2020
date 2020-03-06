@@ -146,7 +146,7 @@ var staff = [
 	{
 		name: 'Holly Milián',
 		short: 'Ilustradora freelance. Pertenece al colectivo Limonada Bandida. Participante en Wander Project 5.',
-		information: 'Es una ilustradora freelance y estudiante de diseño gráfico. Pertenece al colectivo Limonada Bandida y a participado en Wander Project 5. Tiene experiencia como ilustradora de varias fanzines internacionales.',
+		information: 'Es una ilustradora freelance y estudiante de diseño gráfico. Pertenece al colectivo Limonada Bandida y ha participado en Wander Project 5. Tiene experiencia como ilustradora de varias fanzines internacionales.',
 		image: 'HollyMilian.jpg',
 		email: '-',
 		company: '',

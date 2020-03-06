@@ -75,7 +75,7 @@ var staff = [
 		name: 'Ivette González Salazar',
 		short: 'Comunicadora social y periodista digital. Directora editorial para iLifebelt y Neuromarketing.la.',
 		information: 'Comunicadora social y periodista digital, certificada en inbound y content marketing. Directora editorial para iLifebelt y Neuromarketing.la.',
-		image: 'default.png',
+		image: 'IvetteGonzalez.jpeg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
@@ -236,10 +236,10 @@ var staff = [
 		nationality: 'guatemala'
 	},
 	{
-		name: 'María Fernanda Alvarado Castillo',
+		name: 'Fernanda Alvarado',
 		short: 'Fotógrafa freelance apasionada por la fotografía urbana. Ha realizado sesiones con músicos.',
 		information: 'Mi nombre es Fernanda Alvarado, tengo 24 años de edad y nací en Guatemala. Actualmente trabajo en un call center, como maestra de inglés, y fotógrafa freelance. Aunque mi pasión es la fotografía urbana, también he hecho sesiones planificadas, especialmente con músicos, como Kadmon Band, Rebeca Lane, etc. Desde pequeña me ha movido el arte; en mis tiempos libres también disfruto pintar con acuarela y asistir a eventos culturales. Atesoro mi tiempo en soledad, aunque irónicamente no vine sola al mundo, sino con un mellizo. Mi palabra favorita es "ternura", me parece una palabra llena de calidez y muy genuina, y es eso precisamente lo que atrae mi mirada y suelo capturar con la cámara.',
-		image: 'default.png',
+		image: 'FernandaAlvarado.jpeg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
@@ -266,19 +266,19 @@ var staff = [
 		name: 'Isis Anabelle Oseida López',
 		short: 'Autora de Cuentos Ilustrados. Creadora de la Iniciativa de Promoción de la Lectura Te Cuento Un Cuento Guatemala.',
 		information: 'Estudiante de Ciencias Jurídicas y Sociales de la Universidad de San Carlos de Guatemala. Autora de Cuentos Ilustrados. Creadora de la Iniciativa de Promoción de la Lectura Te Cuento Un Cuento Guatemala.',
-		image: 'default.png',
+		image: 'IsisOseida.jpeg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Valeria García',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Doctora en Leyes. Instructora de técnicas de respiración y meditación. Instructora de Yoga de la Fundación El Arte de Vivir.',
+		information: 'Nacío en Argentina en 1982, donde se graduó de Abogada Penalista en la Universidad de Buenos Aires en el año 2006, obteniendo el título de Doctora en Leyes. En 2012 se certificó como instructora de Técnicas de respiración y meditación. En 2014 se graduó como Instructora de Yoga de la Fundación El Arte de Vivir, y de cocinera vegetariana. Se ha capacitado en más de 6 oportunidades en India. Desde hace 9 años se desempeña como voluntaria de la Fundación Internacional El Arte de Vivir y de la Asociación Internacional para los Valores Humanos (AIVH). En donde trabaja representando a la Fundación en Centroamérica, específicamente como Country Cordinator de Guatemala y El Salvador. Tiene más de 15 años de experiencia como oradora, dando talleres, conferencias, cursos y seminarios de calidad de vida.',
+		image: 'ValeriaGarcia.jpeg',
 		email: '-',
 		company: '',
-		nationality: 'guatemala'
+		nationality: 'argentina'
 	},
 	{
 		name: 'María Fernanda Montenegro Monterroso',

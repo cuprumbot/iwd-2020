@@ -378,5 +378,32 @@ var staff = [
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
+	},
+	{
+		name: 'Brenda Lemus',
+		short: '-',
+		information: '-',
+		image: 'default.png',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Erika Luna',
+		short: '-',
+		information: '-',
+		image: 'default.png',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Irma Castillo',
+		short: '-',
+		information: '-',
+		image: 'default.png',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
 	}
 ];

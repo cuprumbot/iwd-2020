@@ -225,7 +225,6 @@ var staff = [
 		company: '',
 		nationality: 'guatemala'
 	},
-	/* TO DO: buscar en CFP */
 	{
 		name: 'Cecilia Castillo',
 		short: 'Ingeniera en sistemas, Se dedica al desarrollo de aplicaciones móviles en Xoom, ha trabajado en aplicaciones de Android e iOS.',
@@ -349,6 +348,33 @@ var staff = [
 		short: '-',
 		information: '-',
 		image: 'default.png',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Meiling Esteban',
+		short: 'Apasionada por la tecnología y la investigación criminal. Fundadora de ASITI, ANPROFOR y Radio Akbal Huehue.',
+		information: 'Apasionada por la tecnología y la investigación criminal, fundadora de ASITI (Asociación de Innovación Tecnológica e Informática), ANPROFOR (Asociación Nacional de Profesionales Forenses) y Radio Akbal Huehue (Radio Online) miembro de diversas comunidades de tecnología en Guatemala.',
+		image: 'MeilingEsteban.jpg',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Fabiola Gómez',
+		short: 'Analista de Seguridad Informática, de vulnerabilidades de red internas, y de vulnerabilidades de infraestructura web.',
+		information: 'Analista de Seguridad Informatica. Análisis de vulnerabilidades de red internas y análisis de vulnerabilidades de infraestructura web para clientes en Centro América. Implementación de buenas prácticas de seguridad informática. Auditoría e implementación de sistemas de gestión de seguridad de la información -SGSI- y sistemas de gestión de calidad -SGC- acorde a normas ISO. Certificaciones: Auditor Líder ISO 27001:2013 Auditor Líder ISO 9001:2015.',
+		image: 'FabiolaGomez.jpeg',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'María Fernanda Castellanos',
+		short: 'Ingeniera en Sistemas, con maestría en Administración de Negocios y maestría en Transformación Digital. Scrum Master certificada.',
+		information: 'María Fernanda Castellanos, es ingeniera en sistemas de la universidad Mariano Gálvez de Guatemala y Scrum Master certificada, con experiencia en desarrollo de sistemas para la industria financiera, ejecución de proyectos y gestión de equipos bajo marcos de trabajo ágiles. Actualmente cuanta con dos maestrías, una en administración de negocios con especialización en gestión de proyectos de la universidad Mariano Gálvez de Guatemala y otra maestría en transformación digital, con certificación en gerencia de tecnologías digitales disruptivas del instituto de economía digital de Madrid. España. Actualmente trabaja para un grupo financiero que está entre los 10 bancos más grandes de Latinoamérica, nombrado como el banco más sostenible del mundo por Dow Jones. Mafer es amante de los animales, especialmente los perros, su deporte favorito es el futbol. Disfruta mucho escuchar música trova, su mayor pasión es viajar y conocer nuevas culturas.',
+		image: 'MaferCastellanos.jpeg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

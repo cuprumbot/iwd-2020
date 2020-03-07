@@ -153,6 +153,17 @@ var events = [
 	},
 
 	/* Viernes 18:05 */
+	/* TO DO: staff Evelyn Donis */
+	{
+		name: 'Seguridad en la era de la Transformación Digital',
+		description: 'Dar a conocer las tendencias, herramientas y medidas de control utilizadas para detectar, prevenir y proteger ante ataques de cyberseguridad con la utilización de las nuevas tecnologías relacionadas con la transformación digital.',
+		speaker: 'Evelyn Donis',
+		day: '13',
+		time: '18:05',
+		place: 'Salón 401 - UG',
+		subjects: [],
+		tba: '0'
+	},
 	{
 		name: 'Equilibrio de empresaria, mujer y otros problemas',
 		description: 'Soy arquitecta fundadora de Interni Arquitectos. En un país donde la arquitectura está hecha para hombres, quiero contar mi historia personal.',
@@ -160,6 +171,16 @@ var events = [
 		day: '13',
 		time: '18:05',
 		place: 'Salón 511 - UG',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: '¿Transformando qué? Iniciando el camino hacia la transformación digital',
+		description: '',
+		speaker: 'María Fernanda Castellanos',
+		day: '13',
+		time: '18:05',
+		place: 'Salón AC07 - UG',
 		subjects: [],
 		tba: '0'
 	},
@@ -172,6 +193,17 @@ var events = [
 		day: '13',
 		time: '18:25',
 		place: 'Salón 511 - UG',
+		subjects: [],
+		tba: '0'
+	},
+	/* TO DO: profile Irma Castillo */
+	{
+		name: 'TBD',
+		description: '',
+		speaker: 'Irma Castillo',
+		day: '13',
+		time: '18:25',
+		place: 'Salón AC07 - UG',
 		subjects: [],
 		tba: '0'
 	},
@@ -270,7 +302,7 @@ var events = [
 	{
 		name: 'Fotografía urbana desde una perspectiva femenina',
 		description: 'Esta charla está dirigida a mujeres de cualquier edad, a todas aquellas que alguna vez se han sentido incómodas al salir de casa. La experiencia de una chica que no sacaba el teléfono ni para ver la hora y ahora recorre las calles con cámara en mano en búsqueda de belleza en la cotidianidad.',
-		speaker: 'María Fernanda Alvarado Castillo',
+		speaker: 'Fernanda Alvarado',
 		day: '14',
 		time: '09:30',
 		place: 'Salón 2 - AGEXPORT',
@@ -342,6 +374,30 @@ var events = [
 		tba: '0'
 	},
 
+	/* Sábado 10:20 */
+	/* TO DO */
+	{
+		name: 'TBD',
+		description: '',
+		speaker: 'Daniella Suger',
+		day: '14',
+		time: '10:20',
+		place: 'Salón 1 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	/* TO DO */
+	{
+		name: 'TBD',
+		description: '',
+		speaker: 'Katherine Chauca',
+		day: '14',
+		time: '10:25',
+		place: 'Salón 3 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+
 	/* Sábado 10:50 */
 	{
 		name: 'Coffee break',
@@ -355,6 +411,27 @@ var events = [
 	},
 
 	/* Sábado 11:10 */
+	/* TO DO: profile Brenda Lemus */
+	{
+		name: 'Tuve un sueño y también Internet',
+		description: '',
+		speaker: 'Brenda Lemus',
+		day: '14',
+		time: '11:10',
+		place: 'Salón 31 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'IoT con Arduino',
+		description: 'Demostración de cómo pueden controlar cualquier cosa a distancia.',
+		speaker: 'Meiling Esteban',
+		day: '14',
+		time: '11:10',
+		place: 'Salón 2 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
 	{
 		name: 'Tips para crecer profesionalmente',
 		description: '',
@@ -421,6 +498,17 @@ var events = [
 	},
 
 	/* Sábado 12:10 */
+	/* TO DO */
+	{
+		name: 'TBD',
+		description: '',
+		speaker: 'Marian Villa',
+		day: '14',
+		time: '12:10',
+		place: 'Salón 1 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
 	{
 		name: 'Mujeres en el espacio y la participación de Guatemala',
 		description: 'Mujeres presentes en la investigación espacial o que forman parte del gremio de investigación espacial. Liderazgo para investigación en Guatemala y su participación en la investigación espacial.',
@@ -432,9 +520,9 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Haz un pívot en tu carrera profesional hacia la tecnología',
+		name: 'Panel',
 		description: '',
-		speaker: 'Isis García',
+		speaker: 'Jennifer Marroquín',
 		day: '14',
 		time: '12:10',
 		place: 'Salón 3 - AGEXPORT',
@@ -443,6 +531,27 @@ var events = [
 	},
 
 	/* Sábado 12:50 */
+	{
+		name: 'TBD',
+		description: '',
+		speaker: 'Fabiola Gómez',
+		day: '14',
+		time: '12:50',
+		place: 'Salón 1 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	/* TO DO: profile Erika Luna */
+	{
+		name: 'TBD',
+		description: '',
+		speaker: 'Erika Luna',
+		day: '14',
+		time: '12:50',
+		place: 'Salón 2 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
 	{
 		name: 'Lidiando con el miedo a la desaprobación',
 		description: '',

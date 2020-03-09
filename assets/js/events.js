@@ -290,8 +290,8 @@ var events = [
 
 	/* Sábado 9:30 */
 	{
-		name: 'The effective engineer',
-		description: '',
+		name: 'Becoming a kick-ass engineer',
+		description: 'Convertirse en un buen ingeniero conlleva más que las habilidades tecnicas. Durante mi charla compartire mi experiencia acerca de que habilidades y comportamientos considero que son complementarios a un buen conocimiento tecnico para realmente hacer un impacto y convertirnos en Kick-ass engineers.',
 		speaker: 'Cecilia Castillo',
 		day: '14',
 		time: '09:30',

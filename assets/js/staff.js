@@ -426,9 +426,9 @@ var staff = [
 	},
 	{
 		name: 'Jennifer Marroquín',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Periodista con 12 años de experiencia.',
+		information: 'Soy periodista con 12 años de experiencia.',
+		image: 'JenniferMarroquin.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

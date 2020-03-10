@@ -78,9 +78,9 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Marketing disruptivo / Marketing model (Taller con Wake Up Brain)',
-		description: 'Innovación y creatividad con apoyo del marketing.',
-		speaker: 'Andrea Cab',
+		name: 'La inclusión de la mujer en la profesión de ingeniería',
+		description: '',
+		speaker: 'Fátima Girón',
 		day: '13',
 		time: '17:15',
 		place: 'Salón 511 - UG',
@@ -153,11 +153,11 @@ var events = [
 	},
 
 	/* Viernes 18:05 */
-	/* TO DO: staff Evelyn Donis */
+	/* TO DO: staff Irma Carrillo */
 	{
-		name: 'Seguridad en la era de la Transformación Digital',
-		description: 'Dar a conocer las tendencias, herramientas y medidas de control utilizadas para detectar, prevenir y proteger ante ataques de cyberseguridad con la utilización de las nuevas tecnologías relacionadas con la transformación digital.',
-		speaker: 'Evelyn Donis',
+		name: 'Emprendiendo en un mundo de hombres',
+		description: '',
+		speaker: 'Irma Carrillo',
 		day: '13',
 		time: '18:05',
 		place: 'Salón 401 - UG',
@@ -250,7 +250,7 @@ var events = [
 		description: 'Este taller pretende analizar de dónde salen todas estas dudas que tenemos de nosotras mismas, cómo nos afectan y dar pasos sencillos para auto-evaluarnos, darnos ánimos y sobre todo, decir lo que pensamos y sentimos, expresando con claridad y asertividad nuestras necesidades. ',
 		speaker: 'Andrea Noemí Mazariegos Rivas',
 		day: '14',
-		time: '08:10',
+		time: '08:50',
 		place: 'Salón 1 - AGEXPORT',
 		subjects: [],
 		tba: '0'

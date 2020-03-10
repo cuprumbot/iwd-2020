@@ -99,15 +99,6 @@ var staff = [
 		nationality: 'guatemala'
 	},
 	{
-		name: 'Andrea Cab',
-		short: 'Fundadora de Wonder Woman Guatemala. Mercadóloga con MBA y especialización en Customer Experience. Mentora y tallerista en varios summits.',
-		information: 'Fundadora de Wonder Woman Guatemala. Andrea es mercadóloga de corazón (y en papel!) de la Universidad Rafael Landívar, con MBA y una especialización en Customer Experience. Este año terminó su diplomado en derechos humanos de la Mujer de la Universidad Austral de Argentina y con ello pretende sensibilizar y fortalecer el empoderamiento femenino en el país. Desde hace varios años ha formado micro emprendimientos en diferentes industrias y en el 2014 co-fundó Grupo ValCab, una empresa que cuenta con varios departamentos de mercadeo representado a nivel regional una marca de contadores de personas y heatmaps que han ayudado a varias marcas de retail a segmentar, posicionar y recrear espacios en sus tiendas. Ha desarrollado una herramienta in-house de tracking de marketing insights que evalúan una parte primordial del customer journey de cada segmento de clientes. Ha participado y apoyado en varios summits como mentora y tallerista. Considera que Wonder Woman Guatemala es una comunidad que potencializará económica e integralmente a las mujeres en sus proyectos ya que cuenta con información y experiencia compartida por otras mujeres. Andrea dice: "Para dirigirnos hacia nuestras metas hay que mover el cuerpo pero bailar con nuestro cerebro!"',
-		image: 'AndreaCab.jpg',
-		email: '-',
-		company: '',
-		nationality: 'guatemala'
-	},
-	{
 		name: 'María Olga Samperio',
 		short: 'Graduada del Savannah College of Arts and Design. Project manager, UX researcher y product designer en la startup Urbop.',
 		information: 'Me gradué de diseño de servicio e industrial en SCAD (Savannah College of Arts and Design), luego trabaje dos años en Nueva York como diseñadora en una firma de mobiliario, hace dos años regrese a Guatemala decidí explorar el gremio de los textiles luego de 8 meses. Empeze en la startup Urbop, donde estoy trabajando actualmente como product management, UX research y product designer.',
@@ -381,18 +372,9 @@ var staff = [
 	},
 	{
 		name: 'Brenda Lemus',
-		short: '-',
-		information: '-',
-		image: 'default.png',
-		email: '-',
-		company: '',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Erika Luna',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Cofundadora y directora de Yo\'o Guatemala. Guatemalteca Ilustre en 2014. Embajadora de la Paz en 2015. Ambientalista.',
+		information: 'Cofundadora y Directora de programas de Yo\'o Guatemala. Impulsa un ambicioso proyecto de educación integral para estudiantes de comunidades desfavorecidas de Purulhá a través de la Biblioteca Bernardo Lemus Mendoza. Actualmente coordina y gestiona apoyo para desarrollar simultáneamente más de 16 actividades de los diferentes programas de educación, lectura, salud, nutrición y capacitación de jóvenes en liderazgo comunitario, con los que se atiende a una población escolar de más de 2,000 estudiantes. Con el respaldo de una red de profesionales y sociólogos voluntarios, ha creado e implementado la filosofía que sustenta el proyecto e impulsa el desarrollo local. Ambientalista, de valores y sensibilidad social humanística recibida en un sencillo seno familiar, además de haber crecido en la zona, le permite a Brenda conseguir una integración comunitaria cordial. Este trabajo, que es resultado de una comunidad comprometida, le ha hecho receptora de distintos reconocimientos como Guatemalteca Ilustre en 2014 y Embajadora de La Paz en 2015, entre otros. Madre y maestra, ha completado su formación con estudios en Desarrollo comunitario en Asociación para el Liderazgo Guatemala, Centroamérica Adelante, así como en temas referentes a pedagogía y Prevención de la Violencia Sexual Infantil con Unicef y Universidad Rafael Landívar.',
+		image: 'BrendaLemus.jpeg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
@@ -405,5 +387,32 @@ var staff = [
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
-	}
+	},
+	{
+		name: 'Virginia Beatriz Mejía Guillén',
+		short: 'Ingeniera en Sistemas de Información y Ciencias de la Computación. Pensum cerrado de Maestría en Docencia Superior. Docente. en Colegio Centroamericano.',
+		information: 'Ingeniera en Sistemas de Información y Ciencias de la Computación, posee pensum cerrado de Maestría en Docencia Superior, egresada de la Universidad Mariano Gálvez,  su experiencia laboral es en el campo de la educación, ha trabajado como docente en Colegio Centroamericano dónde como parte de proceso de formación a estudiantes de bachillerato en computación desarrollo aplicaciones de realidad aumentada, ha trabajado con herramientas como Sketchup para el modelado  e impresión de figuras 3D para la creación de proyectos de robótica con proyección de impacto social desarrollando el interés de los estudiantes para que formen carácter investigativo. Su mayor pasión es hacer uso de aplicaciones que faciliten el proceso de enseñanza – aprendizaje ya que es importante que el maestro en el salón de clases utilice la tecnología para hacer efectiva la calidad en la educación, considera que hay muchos jóvenes que poseen talento nato para el desarrollo de aplicaciones, el proceso para descubrirlo e invitar a explotar ese talento es interesante y satisfactorio.',
+		image: 'VirginiaMejia.jpeg',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Fátima Girón',
+		short: 'Estudiante de Ingeniería Industrial. Encargada de promoción de carreras de la Facultad de Tecnología e Industria.',
+		information: 'Estudiante de Ingeniería Industrial. Encargada de promoción de carreras de la Facultad de Tecnología e Industria.',
+		image: 'FatimaGiron.jpeg',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Fátima Girón',
+		short: 'Estudiante de Licenciatura en Imagen Pública y Medios de Comunicación. Ha participado en ventos y proyectos culturales que buscan rescatar nuestras riquezas nacionales.',
+		information: 'Se caracteriza por ser una mujer soñadora, decidida, analítica, con valores y principios. Anhela una mejor Guatemala y está consciente de que el cambio está en cada uno de nosotros. En los últimos años ha sido parte de eventos y proyectos culturales, los cuales intentan rescatar, mantener y promover nuestras riquezas nacionales. Cursa el último año de la Licenciatura en Imagen Pública y Medios de Comunicación en la Universidad Galileo.',
+		image: 'EstefanyBoiton.jpeg',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
 ];

@@ -225,7 +225,7 @@ var events = [
 	/* Sábado 8:10 */
 	{
 		name: 'Aplicaciones con Realidad Aumentada',
-		description: '',
+		description: 'Mediante la realidad aumentada es posible tener contacto con el mundo real, de tal forma que permite observar el contexto de lo que nos rodea, al tener esta caracteristica de mezclar el mundo real con el virtual se obtiene una experiencia completa en tiempo real.',
 		speaker: 'Virginia Beatriz Mejía Guillén',
 		day: '14',
 		time: '08:10',

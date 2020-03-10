@@ -196,11 +196,11 @@ var events = [
 		subjects: [],
 		tba: '0'
 	},
-	/* TO DO: profile Irma Castillo */
+	/* TO DO: profile Evelyn Donis */
 	{
-		name: 'TBD',
-		description: '',
-		speaker: 'Irma Castillo',
+		name: 'Seguridad en la era de la transformación digital',
+		description: 'Dar a conocer las tendencias, herramientas y medidas de control utilizadas para detectar, prevenir y proteger ante ataques de cyberseguridad con la utilización de las nuevas tecnologías relacionadas con la transformación digital.',
+		speaker: 'Evelyn Donis',
 		day: '13',
 		time: '18:25',
 		place: 'Salón AC07 - UG',
@@ -224,12 +224,22 @@ var events = [
 
 	/* Sábado 8:10 */
 	{
+		name: 'Aplicaciones con Realidad Aumentada',
+		description: '',
+		speaker: 'Virginia Beatriz Mejía Guillén',
+		day: '14',
+		time: '08:10',
+		place: 'Salón 2 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
 		name: 'Arma tu propio entorno de desarrollo en la nube',
 		description: '',
 		speaker: 'Adriana Moya',
 		day: '14',
 		time: '08:10',
-		place: 'Salón 1 - AGEXPORT',
+		place: 'Salón 3 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -332,9 +342,9 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Robótica aeroespacial',
-		description: 'Mi experiencia en el MIT Aeroastro Departament. Trabajando con robots dentro de la ISS y oportunidades para GT.',
-		speaker: 'Wendy Miranda',
+		name: 'IoT con Arduino',
+		description: 'Demostración de cómo pueden controlar cualquier cosa a distancia.',
+		speaker: 'Meiling Esteban',
 		day: '14',
 		time: '09:50',
 		place: 'Salón 2 - AGEXPORT',
@@ -375,9 +385,8 @@ var events = [
 	},
 
 	/* Sábado 10:20 */
-	/* TO DO */
 	{
-		name: 'TBD',
+		name: 'Las mujeres y el cambio climático',
 		description: '',
 		speaker: 'Daniella Suger',
 		day: '14',
@@ -390,7 +399,7 @@ var events = [
 	{
 		name: 'TBD',
 		description: '',
-		speaker: 'Katherine Chauca',
+		speaker: 'Estefany Boitón',
 		day: '14',
 		time: '10:25',
 		place: 'Salón 3 - AGEXPORT',
@@ -423,9 +432,9 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'IoT con Arduino',
-		description: 'Demostración de cómo pueden controlar cualquier cosa a distancia.',
-		speaker: 'Meiling Esteban',
+		name: 'Women in cyber security',
+		description: '',
+		speaker: 'Fabiola Gómez',
 		day: '14',
 		time: '11:10',
 		place: 'Salón 2 - AGEXPORT',
@@ -433,11 +442,11 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Tips para crecer profesionalmente',
+		name: 'Conociendo los observables',
 		description: '',
 		speaker: 'Mayra Rodríguez',
 		day: '14',
-		time: '10:10',
+		time: '11:10',
 		place: 'Salón 3 - AGEXPORT',
 		subjects: [],
 		tba: '0'
@@ -467,9 +476,9 @@ var events = [
 
 	/* Sábado 11:50 */
 	{
-		name: 'Leadership',
-		description: 'Que significa ser un lider o un manager de tecnologia , como prepararse, tips, etc.',
-		speaker: 'Andrea María Quan López',
+		name: 'Robótica aeroespacial',
+		description: 'Compartir mi.experiencia en el MIT aeroastro departament.  Trabajando con robots dentro de la ISS y oportunidades para Guatemala.',
+		speaker: 'Wendy Miranda',
 		day: '14',
 		time: '11:50',
 		place: 'Salón 1 - AGEXPORT',
@@ -498,11 +507,10 @@ var events = [
 	},
 
 	/* Sábado 12:10 */
-	/* TO DO */
 	{
-		name: 'TBD',
-		description: '',
-		speaker: 'Marian Villa',
+		name: '10 tips un mejor technical leadership',
+		description: 'Que significa ser un lider o un manager de tecnologia, cómo prepararse y algunos tips.',
+		speaker: 'Andrea María Quan López',
 		day: '14',
 		time: '12:10',
 		place: 'Salón 1 - AGEXPORT',
@@ -510,19 +518,9 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Mujeres en el espacio y la participación de Guatemala',
-		description: 'Mujeres presentes en la investigación espacial o que forman parte del gremio de investigación espacial. Liderazgo para investigación en Guatemala y su participación en la investigación espacial.',
-		speaker: 'Katherinne Sofía Herrera Jordán',
-		day: '14',
-		time: '12:10',
-		place: 'Salón 2 - AGEXPORT',
-		subjects: [],
-		tba: '0'
-	},
-	{
-		name: 'Panel',
+		name: 'Lidiando con el miedo a la desaprobación',
 		description: '',
-		speaker: 'Jennifer Marroquín',
+		speaker: 'Vérónica Solís',
 		day: '14',
 		time: '12:10',
 		place: 'Salón 3 - AGEXPORT',
@@ -532,20 +530,19 @@ var events = [
 
 	/* Sábado 12:50 */
 	{
-		name: 'TBD',
+		name: 'Encuentra un propósito y codea',
 		description: '',
-		speaker: 'Fabiola Gómez',
+		speaker: 'Marian Villa',
 		day: '14',
 		time: '12:50',
 		place: 'Salón 1 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
-	/* TO DO: profile Erika Luna */
 	{
-		name: 'TBD',
-		description: '',
-		speaker: 'Erika Luna',
+		name: 'Mujeres en el espacio y la participación de Guatemala',
+		description: 'Mujeres presentes en la investigación espacial o que forman parte del gremio de investigación espacial. Liderazgo para investigación en Guatemala y su participación en la investigación espacial.',
+		speaker: 'Katherinne Sofía Herrera Jordán',
 		day: '14',
 		time: '12:50',
 		place: 'Salón 2 - AGEXPORT',
@@ -553,9 +550,9 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Lidiando con el miedo a la desaprobación',
+		name: 'Panel',
 		description: '',
-		speaker: 'Verónica Solís',
+		speaker: 'Jennifer Marroquín',
 		day: '14',
 		time: '12:50',
 		place: 'Salón 3 - AGEXPORT',

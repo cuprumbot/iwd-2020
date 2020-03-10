@@ -399,7 +399,7 @@ var events = [
 	{
 		name: 'TBD',
 		description: '',
-		speaker: 'Estefany Boitón',
+		speaker: 'Estefany Mariví Boiton Fernández',
 		day: '14',
 		time: '10:25',
 		place: 'Salón 3 - AGEXPORT',

@@ -407,7 +407,7 @@ var staff = [
 		nationality: 'guatemala'
 	},
 	{
-		name: 'Estefany Boitón',
+		name: 'Estefany Mariví Boiton Fernández',
 		short: 'Estudiante de Licenciatura en Imagen Pública y Medios de Comunicación. Ha participado en ventos y proyectos culturales que buscan rescatar nuestras riquezas nacionales.',
 		information: 'Se caracteriza por ser una mujer soñadora, decidida, analítica, con valores y principios. Anhela una mejor Guatemala y está consciente de que el cambio está en cada uno de nosotros. En los últimos años ha sido parte de eventos y proyectos culturales, los cuales intentan rescatar, mantener y promover nuestras riquezas nacionales. Cursa el último año de la Licenciatura en Imagen Pública y Medios de Comunicación en la Universidad Galileo.',
 		image: 'EstefanyBoiton.jpeg',

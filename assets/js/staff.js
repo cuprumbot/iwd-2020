@@ -335,7 +335,7 @@ var staff = [
 	},
 	/* TO DO: buscar en CFP */
 	{
-		name: 'Verónica Solís',
+		name: 'Vérónica Solís',
 		short: '-',
 		information: '-',
 		image: 'default.png',
@@ -420,6 +420,15 @@ var staff = [
 		short: 'Ingeniera en Distemas con certificación de ISO 27001 LA y Cybersecurity Essential by Cisco. Diez años de experiencia en seguridad de informática e información.',
 		information: '"Soy Ingeniera en Sistemas, con certificación de ISO 27001 LA y Cybersecurity Essential by Cisco, tengo 10 años de experiencia en Seguridad de Informática e Información, la cual has sido formada por realización de auditorias de sistemas, realización de pentest en diferentes industrias, análisis de vulnerabilidades, detección de fraudes, análisis de logs a nivel de sistema operativo y base de datos, todo esto realizado para diferentes industrias de telecomunicaciones, retail, inmobiliarias, financieras y manufactureras. Lo que me ha llevado a seguir en el aprendizaje continuo sobre seguridad de la información y ciberseguridad."',
 		image: 'EvelynDonis.jpg',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Jennifer Marroquín',
+		short: '-',
+		information: '-',
+		image: 'default.png',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

@@ -333,16 +333,6 @@ var staff = [
 		company: '',
 		nationality: 'guatemala'
 	},
-	/* TO DO: buscar en CFP */
-	{
-		name: 'Vérónica Solís',
-		short: '-',
-		information: '-',
-		image: 'default.png',
-		email: '-',
-		company: '',
-		nationality: 'guatemala'
-	},
 	{
 		name: 'Meiling Esteban',
 		short: 'Apasionada por la tecnología y la investigación criminal. Fundadora de ASITI, ANPROFOR y Radio Akbal Huehue.',

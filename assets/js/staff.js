@@ -372,8 +372,8 @@ var staff = [
 	},
 	{
 		name: 'Irma Carrillo',
-		short: '-',
-		information: '-',
+		short: 'Graduada de Administración de Empresas con maestría en Marketing y Venta y maestría en Marketing Digital. Experiencia en área comercial y marketing de distintas empresas.',
+		information: 'Soy graduada de la carrera de Administración de Empresas en la UFM, obtuve una maestría en Marketing y Venta en la Universidad de Burdeos en Francia, y tengo otra maestría en Marketing digital del ENAE en Murcia, España. He trabajado en empresas familiares, trabajé 2 años en él área comercial de Prensa Libre y desde hace 5 años soy emprendedora y me dedico al Marketing y Finanzas en Mister Barber Shop.',
 		image: 'IrmaCarrillo.jpeg',
 		email: '-',
 		company: '',

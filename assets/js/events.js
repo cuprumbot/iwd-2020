@@ -12,7 +12,7 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'TBD',
+		name: 'Google Apps Script',
 		description: '',
 		speaker: 'Katherine Chauca',
 		day: '13',
@@ -155,7 +155,7 @@ var events = [
 	/* Viernes 18:05 */
 	/* TO DO: staff Irma Carrillo */
 	{
-		name: 'Emprendiendo en un mundo de hombres',
+		name: 'Rompiendo barreras: Emprendiendo en "un mundo de hombres"',
 		description: '',
 		speaker: 'Irma Carrillo',
 		day: '13',
@@ -209,10 +209,20 @@ var events = [
 	},
 
 	/* Viernes 18:45 */
-	{
-		name: 'Panel',
+		{
+		name: 'TBD',
 		description: '',
-		speaker: '',
+		speaker: 'Debbie Cohen',
+		day: '13',
+		time: '18:45',
+		place: 'Salón 401 - UG',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Importancia del intérprete',
+		description: '',
+		speaker: 'Benemérito Comité Pro Ciegos y Sordos de Guatemala',
 		day: '13',
 		time: '18:45',
 		place: 'Salón 511 - UG',
@@ -222,7 +232,19 @@ var events = [
 
 
 
+
+
 	/* Sábado 8:10 */
+	{
+		name: 'Evolución de los Derechos Humanos de la mujer en Guatemala y su participación en la historia',
+		description: 'Breve relato de la regulación nacional e internacional de los derechos de la mujer. Reconocimiento de los esfuerzos realizados por mujeres guatemaltecas que marcaron la historia y participación ciudadana.',
+		speaker: 'Flor de los Ángeles León Chinchilla',
+		day: '14',
+		time: '08:10',
+		place: 'Salón 1 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
 	{
 		name: 'Aplicaciones con Realidad Aumentada',
 		description: 'Mediante la realidad aumentada es posible tener contacto con el mundo real, de tal forma que permite observar el contexto de lo que nos rodea, al tener esta caracteristica de mezclar el mundo real con el virtual se obtiene una experiencia completa en tiempo real.',
@@ -432,9 +454,9 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Women in cyber security',
+		name: 'Cómo crear una ruta profesional',
 		description: '',
-		speaker: 'Fabiola Gómez',
+		speaker: 'Isis García',
 		day: '14',
 		time: '11:10',
 		place: 'Salón 2 - AGEXPORT',
@@ -514,6 +536,16 @@ var events = [
 		day: '14',
 		time: '12:10',
 		place: 'Salón 1 - AGEXPORT',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Importancia del intérprete y lenguaje de señas',
+		description: '',
+		speaker: 'Benemérito Comité Pro Ciegos y Sordos de Guatemala',
+		day: '14',
+		time: '12:10',
+		place: 'Salón 2 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},

@@ -209,9 +209,9 @@ var staff = [
 	/* TO DO: buscar en CFP */
 	{
 		name: 'Massiel Calderón',
-		short: '-',
-		information: '-',
-		image: 'default.png',
+		short: 'Profesional con más de 20 años de experiencia en Proyectos de Gestión de Talento Humano y de Transformación Digital.',
+		information: 'Profesional con más de 20 años de experiencia en Proyectos de Gestión de Talento Humano y de Transformación Digital y proyectos a nivel Directivo y Estratégico, en empresas multinacionales de generación de energía, banca y consumo masivo. He participado en el diseño, elaboración e implementación de proyectos de: Atracción y Retención del Talento Humano, Diseño y Desarrollo Organizacional, Cultura Organizacional, Compensaciones y Beneficios, Transformación Organizacional, Transformación Digital desde la perspectiva huma en países de Latinoamérica y Europa. Especialista certificada para abordar proyectos con modelos de Gestión del Cambio y Agilidad Organizacional. Formadora especializada en aprendizaje experimental utilizando las artes, neurociencias y tecnología.',
+		image: 'MassielCalderon.jpg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
@@ -353,15 +353,6 @@ var staff = [
 		nationality: 'guatemala'
 	},
 	{
-		name: 'Fabiola Gómez',
-		short: 'Analista de Seguridad Informática, de vulnerabilidades de red internas, y de vulnerabilidades de infraestructura web.',
-		information: 'Analista de Seguridad Informatica. Análisis de vulnerabilidades de red internas y análisis de vulnerabilidades de infraestructura web para clientes en Centro América. Implementación de buenas prácticas de seguridad informática. Auditoría e implementación de sistemas de gestión de seguridad de la información -SGSI- y sistemas de gestión de calidad -SGC- acorde a normas ISO. Certificaciones: Auditor Líder ISO 27001:2013 Auditor Líder ISO 9001:2015.',
-		image: 'FabiolaGomez.jpeg',
-		email: '-',
-		company: '',
-		nationality: 'guatemala'
-	},
-	{
 		name: 'María Fernanda Castellanos',
 		short: 'Ingeniera en Sistemas, con maestría en Administración de Negocios y maestría en Transformación Digital. Scrum Master certificada.',
 		information: 'María Fernanda Castellanos, es ingeniera en sistemas de la universidad Mariano Gálvez de Guatemala y Scrum Master certificada, con experiencia en desarrollo de sistemas para la industria financiera, ejecución de proyectos y gestión de equipos bajo marcos de trabajo ágiles. Actualmente cuanta con dos maestrías, una en administración de negocios con especialización en gestión de proyectos de la universidad Mariano Gálvez de Guatemala y otra maestría en transformación digital, con certificación en gerencia de tecnologías digitales disruptivas del instituto de economía digital de Madrid. España. Actualmente trabaja para un grupo financiero que está entre los 10 bancos más grandes de Latinoamérica, nombrado como el banco más sostenible del mundo por Dow Jones. Mafer es amante de los animales, especialmente los perros, su deporte favorito es el futbol. Disfruta mucho escuchar música trova, su mayor pasión es viajar y conocer nuevas culturas.',
@@ -429,6 +420,33 @@ var staff = [
 		short: 'Periodista con 12 años de experiencia.',
 		information: 'Soy periodista con 12 años de experiencia.',
 		image: 'JenniferMarroquin.jpg',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Benemérito Comité Pro Ciegos y Sordos de Guatemala',
+		short: '',
+		information: '',
+		image: 'default.png',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Verónica Solís',
+		short: 'Licenciada en Ciencias de la Comunicación, Comediante de stand-up, improvisadora teatral  y una de las primeras mujeres, con más de 5 años de experiencia, en la escena del stand-up comedy en Guatemala.',
+		information: 'Licenciada en Ciencias de la Comunicación, Comediante de stand-up, improvisadora teatral  y una de las primeras mujeres, con más de 5 años de experiencia, en la escena del stand-up comedy en Guatemala. Apoya y propicia la comedia hecha por mujeres en su país.',
+		image: 'VeronicaSolis.jpg',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Flor de los Ángeles León Chinchilla',
+		short: 'Licenciada en Ciencias Jurídicas y Sociales, Abogada y Notaria. Maestranda en Derecho Constitucional. Abogada Letrada de la Corte de Constitucionalidad.',
+		information: 'Licenciada en Ciencias Jurídicas y Sociales, Abogada y Notaria. Egresada de la Universidad de San Carlos de Guatemala. Maestranda en Derecho Constitucional en la Universidad Rafael Landívar con la colaboración de la Pontificia Universidad Católica de Chile. Trabaja como Abogada Letrada de la Corte de Constitucionalidad de Guatemala.',
+		image: 'FlorLeon.jpeg',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

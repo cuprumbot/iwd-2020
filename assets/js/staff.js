@@ -418,7 +418,7 @@ var staff = [
 		name: 'Benemérito Comité Pro Ciegos y Sordos de Guatemala',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'ProCiegos.png',
 		email: '-',
 		company: '',
 		nationality: 'guatemala'

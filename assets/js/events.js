@@ -258,7 +258,7 @@ var events = [
 	{
 		name: 'Arma tu propio entorno de desarrollo en la nube',
 		description: '',
-		speaker: 'Adriana Moya',
+		speaker: 'Katherine Chauca',
 		day: '14',
 		time: '08:10',
 		place: 'Salón 3 - AGEXPORT',
@@ -552,7 +552,7 @@ var events = [
 	{
 		name: 'Lidiando con el miedo a la desaprobación',
 		description: '',
-		speaker: 'Vérónica Solís',
+		speaker: 'Verónica Solís',
 		day: '14',
 		time: '12:10',
 		place: 'Salón 3 - AGEXPORT',

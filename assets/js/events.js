@@ -241,7 +241,7 @@ var events = [
 		speaker: 'Flor de los Ángeles León Chinchilla',
 		day: '14',
 		time: '08:10',
-		place: 'Salón 1 - AGEXPORT',
+		place: 'Auditorio - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -251,7 +251,7 @@ var events = [
 		speaker: 'Virginia Beatriz Mejía Guillén',
 		day: '14',
 		time: '08:10',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -261,7 +261,7 @@ var events = [
 		speaker: 'Katherine Chauca',
 		day: '14',
 		time: '08:10',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -273,7 +273,7 @@ var events = [
 		speaker: 'Andrea Noemí Mazariegos Rivas',
 		day: '14',
 		time: '08:50',
-		place: 'Salón 1 - AGEXPORT',
+		place: 'Auditorio - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -283,7 +283,7 @@ var events = [
 		speaker: 'Verónica Vilma María Reyes Suruy',
 		day: '14',
 		time: '08:50',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -293,7 +293,7 @@ var events = [
 		speaker: 'Ivonne Aldana',
 		day: '14',
 		time: '08:50',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -305,7 +305,7 @@ var events = [
 		speaker: 'Yolanda Patricia López Solis',
 		day: '14',
 		time: '09:10',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -315,7 +315,7 @@ var events = [
 		speaker: 'Massiel Calderón',
 		day: '14',
 		time: '09:10',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -327,7 +327,7 @@ var events = [
 		speaker: 'Cecilia Castillo',
 		day: '14',
 		time: '09:30',
-		place: 'Salón 1 - AGEXPORT',
+		place: 'Auditorio - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -337,7 +337,7 @@ var events = [
 		speaker: 'Fernanda Alvarado',
 		day: '14',
 		time: '09:30',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -347,7 +347,7 @@ var events = [
 		speaker: 'Lucía Lucero',
 		day: '14',
 		time: '09:30',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -359,7 +359,7 @@ var events = [
 		speaker: 'Andrea Lara',
 		day: '14',
 		time: '09:50',
-		place: 'Salón 1 - AGEXPORT',
+		place: 'Auditorio - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -369,7 +369,7 @@ var events = [
 		speaker: 'Meiling Esteban',
 		day: '14',
 		time: '09:50',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -379,7 +379,7 @@ var events = [
 		speaker: 'Isis Anabelle Oseida López',
 		day: '14',
 		time: '09:50',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -391,7 +391,7 @@ var events = [
 		speaker: 'Valeria García',
 		day: '14',
 		time: '10:10',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -401,7 +401,7 @@ var events = [
 		speaker: 'María Fernanda Montenegro Monterroso',
 		day: '14',
 		time: '10:10',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -413,7 +413,7 @@ var events = [
 		speaker: 'Daniella Suger',
 		day: '14',
 		time: '10:20',
-		place: 'Salón 1 - AGEXPORT',
+		place: 'Auditorio - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -424,7 +424,7 @@ var events = [
 		speaker: 'Estefany Mariví Boiton Fernández',
 		day: '14',
 		time: '10:25',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -449,7 +449,7 @@ var events = [
 		speaker: 'Brenda Lemus',
 		day: '14',
 		time: '11:10',
-		place: 'Salón 31 - AGEXPORT',
+		place: 'Auditorio - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -459,7 +459,7 @@ var events = [
 		speaker: 'Isis García',
 		day: '14',
 		time: '11:10',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -469,7 +469,7 @@ var events = [
 		speaker: 'Mayra Rodríguez',
 		day: '14',
 		time: '11:10',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -481,7 +481,7 @@ var events = [
 		speaker: 'Ana Lucía Rosales Contreras',
 		day: '14',
 		time: '11:30',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -491,7 +491,7 @@ var events = [
 		speaker: 'Karla Marisol Pérez Romero',
 		day: '14',
 		time: '11:30',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -503,7 +503,7 @@ var events = [
 		speaker: 'Wendy Miranda',
 		day: '14',
 		time: '11:50',
-		place: 'Salón 1 - AGEXPORT',
+		place: 'Auditorio - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -513,7 +513,7 @@ var events = [
 		speaker: 'Apri Tanisha Guevara Martinez',
 		day: '14',
 		time: '11:50',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -523,7 +523,7 @@ var events = [
 		speaker: 'Gaby Futch',
 		day: '14',
 		time: '11:50',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -535,7 +535,7 @@ var events = [
 		speaker: 'Andrea María Quan López',
 		day: '14',
 		time: '12:10',
-		place: 'Salón 1 - AGEXPORT',
+		place: 'Auditorio - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -545,7 +545,7 @@ var events = [
 		speaker: 'Benemérito Comité Pro Ciegos y Sordos de Guatemala',
 		day: '14',
 		time: '12:10',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -555,7 +555,7 @@ var events = [
 		speaker: 'Verónica Solís',
 		day: '14',
 		time: '12:10',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -567,7 +567,7 @@ var events = [
 		speaker: 'Marian Villa',
 		day: '14',
 		time: '12:50',
-		place: 'Salón 1 - AGEXPORT',
+		place: 'Auditorio - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -577,7 +577,7 @@ var events = [
 		speaker: 'Katherinne Sofía Herrera Jordán',
 		day: '14',
 		time: '12:50',
-		place: 'Salón 2 - AGEXPORT',
+		place: 'N403 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	},
@@ -587,7 +587,7 @@ var events = [
 		speaker: 'Jennifer Marroquín',
 		day: '14',
 		time: '12:50',
-		place: 'Salón 3 - AGEXPORT',
+		place: 'N404 - AGEXPORT',
 		subjects: [],
 		tba: '0'
 	}

@@ -419,7 +419,7 @@ var events = [
 	},
 	/* TO DO */
 	{
-		name: 'TBD',
+		name: 'La importancia de la proyección femenina en la actualidad',
 		description: '',
 		speaker: 'Estefany Mariví Boiton Fernández',
 		day: '14',

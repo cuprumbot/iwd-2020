@@ -209,8 +209,8 @@ var events = [
 	},
 
 	/* Viernes 18:45 */
-		{
-		name: 'TBD',
+	{
+		name: 'La historia de mi vida',
 		description: '',
 		speaker: 'Debbie Cohen',
 		day: '13',
@@ -256,7 +256,7 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Arma tu propio entorno de desarrollo en la nube',
+		name: 'Evoluciona G Suite con Apps Script y cloud functions',
 		description: '',
 		speaker: 'Katherine Chauca',
 		day: '14',

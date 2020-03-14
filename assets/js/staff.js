@@ -440,5 +440,14 @@ var staff = [
 		email: '-',
 		company: '',
 		nationality: 'guatemala'
+	},
+	{
+		name: 'Debbie Cohen',
+		short: '',
+		information: '',
+		image: 'default.png',
+		email: '-',
+		company: '',
+		nationality: 'guatemala'
 	}
 ];
